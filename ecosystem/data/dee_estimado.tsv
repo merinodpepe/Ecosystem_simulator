@@ -1,0 +1,39 @@
+taxon_group	scientific_name	common_name_ca	body_mass_kg_approx	mass_mid	DEE_kcal_dia_old	DEE_kcal_dia_taxon	FAct_taxon	BMR_kcal_dia	Nagy_FMR_kcal_dia	IEP_kcal_dia
+Mammalia	Rupicapra pyrenaica pyrenaica	-	32.500	32.500	1905.6	2382.0	2.5	952.8	3360.9	1745.2
+Mammalia	Cervus elaphus	-	200.000	200.000	7445.6	9307.0	2.5	3722.8	13179.4	8880.0
+Mammalia	Capreolus capreolus	-	20.000	20.000	1324.0	1655.0	2.5	662.0	2332.9	870.0
+Mammalia	Sus scrofa	-	100.000	100.000	4427.2	5534.0	2.5	2213.6	7825.7	13200.0
+Mammalia	Ursus arctos arctos	-	150.000	150.000	6000.6	7500.8	2.5	3000.3	10615.5	24975.0
+Mammalia	Lutra lutra	-	9.500	9.500	757.6	947.0	2.5	378.8	1332.8	1162.8
+Mammalia	Galemys pyrenaicus	-	0.015	0.015	6.0	7.5	2.5	3.0	10.4	5.9
+Mammalia	Martes martes	-	1.500	1.500	189.8	237.2	2.5	94.9	332.6	259.9
+Mammalia	Vulpes vulpes	-	6.000	6.000	536.7	670.9	2.5	268.4	943.4	933.6
+Mammalia	Felis silvestris	-	4.000	4.000	396.0	495.0	2.5	198.0	695.5	582.4
+Mammalia	Mustela nivalis	-	0.080	0.080	21.1	26.3	2.5	10.5	36.7	11.9
+Mammalia	Mustela erminea	-	0.150	0.150	33.7	42.2	2.5	16.9	58.9	22.3
+Aves	Tetrao urogallus (subsp. pirenaica)	-	4.250	4.250	414.4	952.3	2.8	340.1	765.0	649.8
+Aves	Lagopus muta	-	0.500	0.500	83.2	227.0	2.8	81.1	169.6	36.0
+Aves	Gypaetus barbatus	-	5.500	5.500	502.8	1131.9	2.8	404.2	917.2	557.0
+Aves	Aquila chrysaetos	-	4.000	4.000	396.0	914.4	2.8	326.6	733.0	476.0
+Aves	Corvus corax	-	1.100	1.100	150.4	385.0	2.8	137.5	295.4	156.6
+Reptilia	Iberolacerta aurelioi	-	0.015	0.015	6.0	0.0	3.0	0.0	0.9	5.8
+Reptilia	Podarcis muralis	-	0.005	0.005	2.8	0.0	3.0	0.0	0.4	2.1
+Reptilia	Zootoca vivipara	-	0.004	0.004	2.2	0.0	3.0	0.0	0.3	1.5
+Amphibia	Calotriton asper	-	0.007	0.007	3.6	0.0	2.5	0.0	0.9	2.9
+Amphibia	Rana temporaria	-	0.025	0.025	8.8	0.0	2.5	0.0	2.0	9.8
+Amphibia	Bufo bufo	-	0.050	0.050	14.8	0.0	2.5	0.0	3.1	19.0
+Amphibia	Salamandra salamandra	-	0.035	0.035	11.3	0.0	2.5	0.0	2.4	13.7
+Actinopterygii	Salmo trutta	-	1.250	1.250	165.5	0.3	2.0	0.2	0.0	421.9
+Actinopterygii	Phoxinus spp.	-	0.030	0.030	10.1	0.0	2.0	0.0	0.0	7.9
+Mammalia	Ovis aries musimon	-	37.500	37.500	2121.5	2651.9	2.5	1060.8	3742.8	1665.0
+Mammalia	Dama dama	-	57.500	57.500	2923.3	3654.2	2.5	1461.7	5161.7	2501.2
+Mammalia	Marmota marmota	-	4.550	4.550	436.2	545.2	2.5	218.1	766.2	217.0
+Mammalia	Oryctolagus cuniculus	-	1.200	1.200	160.5	200.6	2.5	80.3	281.2	47.2
+Mammalia	Meles meles	-	11.000	11.000	845.6	1057.0	2.5	422.8	1488.2	2356.2
+Mammalia	Sciurus vulgaris	-	0.300	0.300	56.8	70.9	2.5	28.4	99.2	14.3
+Cluster_Vertebrat	V-Passeriformes	-	0.053	0.053	15.4	17.7	2.3	7.7	0.0	15.7
+Cluster_Vertebrat	V-Ratpenats	-	0.017	0.017	6.6	7.6	2.3	3.3	0.0	6.9
+Cluster_Vertebrat	V-RapinyairesNocturnesGrans	-	1.450	1.450	185.0	212.7	2.3	92.5	0.0	158.3
+Cluster_Vertebrat	V-RapinyairesNocturnesPetites	-	0.235	0.235	47.3	54.3	2.3	23.6	0.0	63.8
+Cluster_Vertebrat	V-MicromamífersPetits	-	0.027	0.027	9.2	10.6	2.3	4.6	0.0	4.0
+Cluster_Vertebrat	V-InsectívorsMitjans	-	0.620	0.620	97.8	112.5	2.3	48.9	0.0	210.9

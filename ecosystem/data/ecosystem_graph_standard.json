@@ -1,0 +1,1779 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "Ursus arctos arctos",
+      "label": "\u00d3s bru",
+      "taxon": "Mammalia",
+      "title": "\u00d3s bru (Ursus arctos arctos) \u2014 Mammalia"
+    },
+    {
+      "id": "Rupicapra pyrenaica pyrenaica",
+      "label": "Isard pirinenc",
+      "taxon": "Mammalia",
+      "title": "Isard pirinenc (Rupicapra pyrenaica pyrenaica) \u2014 Mammalia"
+    },
+    {
+      "id": "Aphididae",
+      "label": "\ud83d\udc1b Fit\u00f2fags",
+      "taxon": "Aphididae",
+      "title": "Aphididae \u2014 Insecta"
+    },
+    {
+      "id": "I2",
+      "label": "\ud83d\udc1b Fit\u00f2fags",
+      "taxon": "Cluster_Invertebrat",
+      "title": "Fit\u00f2fags (I2)"
+    },
+    {
+      "id": "Coleoptera",
+      "label": "\ud83d\udc1b Fit\u00f2fags",
+      "taxon": "Coleoptera",
+      "title": "Coleoptera \u2014 Insecta"
+    },
+    {
+      "id": "Diptera",
+      "label": "\ud83d\udc1b Fit\u00f2fags",
+      "taxon": "Diptera",
+      "title": "Diptera \u2014 Insecta"
+    },
+    {
+      "id": "Ephemeroptera",
+      "label": "\ud83d\udc1b Fit\u00f2fags",
+      "taxon": "Ephemeroptera",
+      "title": "Ephemeroptera \u2014 Insecta"
+    },
+    {
+      "id": "Hemiptera",
+      "label": "\ud83d\udc1b Fit\u00f2fags",
+      "taxon": "Hemiptera",
+      "title": "Hemiptera \u2014 Insecta"
+    },
+    {
+      "id": "Lepidoptera",
+      "label": "\ud83d\udc1b Fit\u00f2fags",
+      "taxon": "Lepidoptera",
+      "title": "Lepidoptera \u2014 Insecta"
+    },
+    {
+      "id": "Orthoptera",
+      "label": "\ud83d\udc1b Fit\u00f2fags",
+      "taxon": "Orthoptera",
+      "title": "Orthoptera \u2014 Insecta"
+    },
+    {
+      "id": "Plecoptera",
+      "label": "\ud83d\udc1b Fit\u00f2fags",
+      "taxon": "Plecoptera",
+      "title": "Plecoptera \u2014 Insecta"
+    },
+    {
+      "id": "Thaumetopoea pityocampa",
+      "label": "\ud83d\udc1b Fit\u00f2fags",
+      "taxon": "Thaumetopoea pityocampa",
+      "title": "Thaumetopoea pityocampa \u2014 Insecta"
+    },
+    {
+      "id": "Trichoptera",
+      "label": "\ud83d\udc1b Fit\u00f2fags",
+      "taxon": "Trichoptera",
+      "title": "Trichoptera \u2014 Insecta"
+    },
+    {
+      "id": "Araneae",
+      "label": "\ud83d\udd77\ufe0f Depredadors/Parasitoides",
+      "taxon": "Araneae",
+      "title": "Araneae \u2014 Insecta"
+    },
+    {
+      "id": "I3",
+      "label": "\ud83d\udd77\ufe0f Depredadors/Parasitoides",
+      "taxon": "Cluster_Invertebrat",
+      "title": "Depredadors/Parasitoides (I3)"
+    },
+    {
+      "id": "Formicidae",
+      "label": "\ud83d\udd77\ufe0f Depredadors/Parasitoides",
+      "taxon": "Formicidae",
+      "title": "Formicidae \u2014 Insecta"
+    },
+    {
+      "id": "Ichneumonidae_Braconidae",
+      "label": "\ud83d\udd77\ufe0f Depredadors/Parasitoides",
+      "taxon": "Ichneumonidae_Braconidae",
+      "title": "Ichneumonidae_Braconidae \u2014 Insecta"
+    },
+    {
+      "id": "Boloria eunomia",
+      "label": "\ud83d\udc1d Pol\u00b7linitzadors",
+      "taxon": "Boloria eunomia",
+      "title": "Boloria eunomia \u2014 Insecta"
+    },
+    {
+      "id": "I1",
+      "label": "\ud83d\udc1d Pol\u00b7linitzadors",
+      "taxon": "Cluster_Invertebrat",
+      "title": "Pol\u00b7linitzadors (I1)"
+    },
+    {
+      "id": "Bombus spp.",
+      "label": "\ud83d\udc1d Pol\u00b7linitzadors",
+      "taxon": "Bombus spp.",
+      "title": "Bombus spp. \u2014 Insecta"
+    },
+    {
+      "id": "Parnassius mnemosyne",
+      "label": "\ud83d\udc1d Pol\u00b7linitzadors",
+      "taxon": "Parnassius mnemosyne",
+      "title": "Parnassius mnemosyne \u2014 Insecta"
+    },
+    {
+      "id": "Nardus stricta",
+      "label": "\ud83c\udf3e Prats i Pastures",
+      "taxon": "Nardus stricta",
+      "title": "Nardus stricta \u2014 Insecta"
+    },
+    {
+      "id": "P3",
+      "label": "\ud83c\udf3e Prats i Pastures",
+      "taxon": "Cluster_Planta",
+      "title": "Prats i Pastures (P3)"
+    },
+    {
+      "id": "Festuca spp.",
+      "label": "\ud83c\udf3e Prats i Pastures",
+      "taxon": "Festuca spp.",
+      "title": "Festuca spp. \u2014 Insecta"
+    },
+    {
+      "id": "Vaccinium myrtillus",
+      "label": "\ud83c\udf3c Plantes Entom\u00f2files",
+      "taxon": "Vaccinium myrtillus",
+      "title": "Vaccinium myrtillus \u2014 Insecta"
+    },
+    {
+      "id": "P1",
+      "label": "\ud83c\udf3c Plantes Entom\u00f2files",
+      "taxon": "Cluster_Planta",
+      "title": "Plantes Entom\u00f2files (P1)"
+    },
+    {
+      "id": "Cervus elaphus",
+      "label": "C\u00e9rvol",
+      "taxon": "Mammalia",
+      "title": "C\u00e9rvol (Cervus elaphus) \u2014 Mammalia"
+    },
+    {
+      "id": "Capreolus capreolus",
+      "label": "Cabirol",
+      "taxon": "Mammalia",
+      "title": "Cabirol (Capreolus capreolus) \u2014 Mammalia"
+    },
+    {
+      "id": "Sus scrofa",
+      "label": "Porc senglar",
+      "taxon": "Mammalia",
+      "title": "Porc senglar (Sus scrofa) \u2014 Mammalia"
+    },
+    {
+      "id": "Tetrao urogallus (subsp. pirenaica)",
+      "label": "Gall fer",
+      "taxon": "Aves",
+      "title": "Gall fer (Tetrao urogallus (subsp. pirenaica)) \u2014 Aves"
+    },
+    {
+      "id": "Salmo trutta",
+      "label": "Truita de riu aut\u00f2ctona",
+      "taxon": "Actinopterygii",
+      "title": "Truita de riu aut\u00f2ctona (Salmo trutta) \u2014 Actinopterygii"
+    },
+    {
+      "id": "Fagus sylvatica",
+      "label": "Faig",
+      "taxon": "Plantae",
+      "title": "Faig (Fagus sylvatica) \u2014 Plantae"
+    },
+    {
+      "id": "Quercus spp.",
+      "label": "Roure",
+      "taxon": "Plantae",
+      "title": "Roure (Quercus spp.) \u2014 Plantae"
+    },
+    {
+      "id": "Various",
+      "label": "\ud83c\udf31 Recursos Vegetals",
+      "taxon": "Recursos Vegetals",
+      "title": "Recursos Vegetals (Various) \u2014 Recursos Vegetals"
+    },
+    {
+      "id": "Lutra lutra",
+      "label": "Ll\u00fadriga",
+      "taxon": "Mammalia",
+      "title": "Ll\u00fadriga (Lutra lutra) \u2014 Mammalia"
+    },
+    {
+      "id": "Phoxinus spp.",
+      "label": "Barb roig / ver\u00f3",
+      "taxon": "Actinopterygii",
+      "title": "Barb roig / ver\u00f3 (Phoxinus spp.) \u2014 Actinopterygii"
+    },
+    {
+      "id": "Calotriton asper",
+      "label": "Trit\u00f3 pirinenc",
+      "taxon": "Amphibia",
+      "title": "Trit\u00f3 pirinenc (Calotriton asper) \u2014 Amphibia"
+    },
+    {
+      "id": "Galemys pyrenaicus",
+      "label": "Almesquera (desm\u00e0n ib\u00e8ric)",
+      "taxon": "Mammalia",
+      "title": "Almesquera (desm\u00e0n ib\u00e8ric) (Galemys pyrenaicus) \u2014 Mammalia"
+    },
+    {
+      "id": "Martes martes",
+      "label": "Marta",
+      "taxon": "Mammalia",
+      "title": "Marta (Martes martes) \u2014 Mammalia"
+    },
+    {
+      "id": "Vulpes vulpes",
+      "label": "Guineu",
+      "taxon": "Mammalia",
+      "title": "Guineu (Vulpes vulpes) \u2014 Mammalia"
+    },
+    {
+      "id": "Felis silvestris",
+      "label": "Gat fer",
+      "taxon": "Mammalia",
+      "title": "Gat fer (Felis silvestris) \u2014 Mammalia"
+    },
+    {
+      "id": "Mustela nivalis",
+      "label": "Mostela",
+      "taxon": "Mammalia",
+      "title": "Mostela (Mustela nivalis) \u2014 Mammalia"
+    },
+    {
+      "id": "Mustela erminea",
+      "label": "Erm\u00edni",
+      "taxon": "Mammalia",
+      "title": "Erm\u00edni (Mustela erminea) \u2014 Mammalia"
+    },
+    {
+      "id": "Pinus uncinata",
+      "label": "Pi negre",
+      "taxon": "Plantae",
+      "title": "Pi negre (Pinus uncinata) \u2014 Plantae"
+    },
+    {
+      "id": "Pinus sylvestris",
+      "label": "Pi roig",
+      "taxon": "Plantae",
+      "title": "Pi roig (Pinus sylvestris) \u2014 Plantae"
+    },
+    {
+      "id": "Arctostaphylos uva-ursi",
+      "label": "Boixerola",
+      "taxon": "Plantae",
+      "title": "Boixerola (Arctostaphylos uva-ursi) \u2014 Plantae"
+    },
+    {
+      "id": "Lagopus muta",
+      "label": "Perdiu xerra",
+      "taxon": "Aves",
+      "title": "Perdiu xerra (Lagopus muta) \u2014 Aves"
+    },
+    {
+      "id": "Gypaetus barbatus",
+      "label": "Trencal\u00f2s",
+      "taxon": "Aves",
+      "title": "Trencal\u00f2s (Gypaetus barbatus) \u2014 Aves"
+    },
+    {
+      "id": "Aquila chrysaetos",
+      "label": "\u00c0guila reial",
+      "taxon": "Aves",
+      "title": "\u00c0guila reial (Aquila chrysaetos) \u2014 Aves"
+    },
+    {
+      "id": "Marmota marmota",
+      "label": "Marmota alpina",
+      "taxon": "Mammalia",
+      "title": "Marmota alpina (Marmota marmota) \u2014 Mammalia"
+    },
+    {
+      "id": "Oryctolagus cuniculus",
+      "label": "Conill",
+      "taxon": "Mammalia",
+      "title": "Conill (Oryctolagus cuniculus) \u2014 Mammalia"
+    },
+    {
+      "id": "Iberolacerta aurelioi",
+      "label": "Sargantana pallaresa",
+      "taxon": "Reptilia",
+      "title": "Sargantana pallaresa (Iberolacerta aurelioi) \u2014 Reptilia"
+    },
+    {
+      "id": "Rana temporaria",
+      "label": "Granota roja",
+      "taxon": "Amphibia",
+      "title": "Granota roja (Rana temporaria) \u2014 Amphibia"
+    },
+    {
+      "id": "Bistorta officinalis",
+      "label": "Bistorta",
+      "taxon": "Plantae",
+      "title": "Bistorta (Bistorta officinalis) \u2014 Plantae"
+    },
+    {
+      "id": "Corydalis spp.",
+      "label": "Corydalis",
+      "taxon": "Plantae",
+      "title": "Corydalis (Corydalis spp.) \u2014 Plantae"
+    },
+    {
+      "id": "Pinus spp.",
+      "label": "Pins",
+      "taxon": "Plantae",
+      "title": "Pins (Pinus spp.) \u2014 Plantae"
+    },
+    {
+      "id": "Ovis aries musimon",
+      "label": "Mufl\u00f3",
+      "taxon": "Mammalia",
+      "title": "Mufl\u00f3 (Ovis aries musimon) \u2014 Mammalia"
+    },
+    {
+      "id": "Dama dama",
+      "label": "Daina",
+      "taxon": "Mammalia",
+      "title": "Daina (Dama dama) \u2014 Mammalia"
+    },
+    {
+      "id": "Meles meles",
+      "label": "Teix\u00f3",
+      "taxon": "Mammalia",
+      "title": "Teix\u00f3 (Meles meles) \u2014 Mammalia"
+    },
+    {
+      "id": "Sciurus vulgaris",
+      "label": "Esquirol",
+      "taxon": "Mammalia",
+      "title": "Esquirol (Sciurus vulgaris) \u2014 Mammalia"
+    },
+    {
+      "id": "V-Passeriformes",
+      "label": "Passeriformes (ocells insect\u00edvors)",
+      "taxon": "Cluster_Vertebrat",
+      "title": "Passeriformes (ocells insect\u00edvors) (V-Passeriformes) \u2014 Cluster_Vertebrat"
+    },
+    {
+      "id": "V-Ratpenats",
+      "label": "Ratpenats (quir\u00f2pters)",
+      "taxon": "Cluster_Vertebrat",
+      "title": "Ratpenats (quir\u00f2pters) (V-Ratpenats) \u2014 Cluster_Vertebrat"
+    },
+    {
+      "id": "V-RapinyairesNocturnesGrans",
+      "label": "Rapinyaires nocturnes grans",
+      "taxon": "Cluster_Vertebrat",
+      "title": "Rapinyaires nocturnes grans (V-RapinyairesNocturnesGrans) \u2014 Cluster_Vertebrat"
+    },
+    {
+      "id": "V-Micromam\u00edfersPetits",
+      "label": "Micromam\u00edfers petits",
+      "taxon": "Cluster_Vertebrat",
+      "title": "Micromam\u00edfers petits (V-Micromam\u00edfersPetits) \u2014 Cluster_Vertebrat"
+    },
+    {
+      "id": "V-RapinyairesNocturnesPetites",
+      "label": "Rapinyaires nocturnes petites",
+      "taxon": "Cluster_Vertebrat",
+      "title": "Rapinyaires nocturnes petites (V-RapinyairesNocturnesPetites) \u2014 Cluster_Vertebrat"
+    },
+    {
+      "id": "V-Insect\u00edvorsMitjans",
+      "label": "Insect\u00edvors mitjans",
+      "taxon": "Cluster_Vertebrat",
+      "title": "Insect\u00edvors mitjans (V-Insect\u00edvorsMitjans) \u2014 Cluster_Vertebrat"
+    },
+    {
+      "id": "Bufo bufo",
+      "label": "Gripau com\u00fa",
+      "taxon": "Amphibia",
+      "title": "Gripau com\u00fa (Bufo bufo) \u2014 Amphibia"
+    },
+    {
+      "id": "Salamandra salamandra",
+      "label": "Salamandra",
+      "taxon": "Amphibia",
+      "title": "Salamandra (Salamandra salamandra) \u2014 Amphibia"
+    },
+    {
+      "id": "Corvus corax",
+      "label": "Corb",
+      "taxon": "Aves",
+      "title": "Corb (Corvus corax) \u2014 Aves"
+    },
+    {
+      "id": "Podarcis muralis",
+      "label": "Sargantana roquera",
+      "taxon": "Reptilia",
+      "title": "Sargantana roquera (Podarcis muralis) \u2014 Reptilia"
+    },
+    {
+      "id": "Zootoca vivipara",
+      "label": "Sargantana viv\u00edpara",
+      "taxon": "Reptilia",
+      "title": "Sargantana viv\u00edpara (Zootoca vivipara) \u2014 Reptilia"
+    },
+    {
+      "id": "P2",
+      "label": "\ud83c\udf3f Productors Independents",
+      "taxon": "Cluster_Planta",
+      "title": "Productors Independents (P2) \u2014 Cluster_Planta"
+    },
+    {
+      "id": "Hippuris vulgaris",
+      "label": "Cua de cavall aqu\u00e0tica",
+      "taxon": "Plantae",
+      "title": "Cua de cavall aqu\u00e0tica (Hippuris vulgaris) \u2014 Plantae"
+    },
+    {
+      "id": "Pteridophyta",
+      "label": "Falgueres (Pterid\u00f2fits)",
+      "taxon": "Plantae",
+      "title": "Falgueres (Pterid\u00f2fits) (Pteridophyta) \u2014 Plantae"
+    },
+    {
+      "id": "Bryophyta",
+      "label": "Molses (Bri\u00f2fits)",
+      "taxon": "Plantae",
+      "title": "Molses (Bri\u00f2fits) (Bryophyta) \u2014 Plantae"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Rupicapra pyrenaica pyrenaica",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Cervus elaphus",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Capreolus capreolus",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Sus scrofa",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Tetrao urogallus (subsp. pirenaica)",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Salmo trutta",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Vaccinium myrtillus",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Fagus sylvatica",
+      "type": "frugivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Quercus spp.",
+      "type": "frugivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Formicidae",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Lutra lutra",
+      "target": "Salmo trutta",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Lutra lutra",
+      "target": "Phoxinus spp.",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Lutra lutra",
+      "target": "Calotriton asper",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Lutra lutra",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Lutra lutra",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Galemys pyrenaicus",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Galemys pyrenaicus",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "medium"
+    },
+    {
+      "source": "Martes martes",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Martes martes",
+      "target": "Tetrao urogallus (subsp. pirenaica)",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Martes martes",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Martes martes",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Martes martes",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "medium"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "Various",
+      "type": "scavenging",
+      "confidence": "medium"
+    },
+    {
+      "source": "Felis silvestris",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Felis silvestris",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Felis silvestris",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Mustela nivalis",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Mustela nivalis",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Mustela nivalis",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Mustela erminea",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Mustela erminea",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Mustela erminea",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Tetrao urogallus (subsp. pirenaica)",
+      "target": "Pinus uncinata",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Tetrao urogallus (subsp. pirenaica)",
+      "target": "Pinus sylvestris",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Tetrao urogallus (subsp. pirenaica)",
+      "target": "Vaccinium myrtillus",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Tetrao urogallus (subsp. pirenaica)",
+      "target": "Arctostaphylos uva-ursi",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Tetrao urogallus (subsp. pirenaica)",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Lagopus muta",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "medium"
+    },
+    {
+      "source": "Gypaetus barbatus",
+      "target": "Various",
+      "type": "scavenging",
+      "confidence": "high"
+    },
+    {
+      "source": "Gypaetus barbatus",
+      "target": "Various",
+      "type": "scavenging",
+      "confidence": "high"
+    },
+    {
+      "source": "Gypaetus barbatus",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "Rupicapra pyrenaica pyrenaica",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "Capreolus capreolus",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "Marmota marmota",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "Oryctolagus cuniculus",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "Various",
+      "type": "scavenging",
+      "confidence": "low"
+    },
+    {
+      "source": "Iberolacerta aurelioi",
+      "target": "Formicidae",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Iberolacerta aurelioi",
+      "target": "Coleoptera",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Iberolacerta aurelioi",
+      "target": "Hemiptera",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Iberolacerta aurelioi",
+      "target": "Diptera",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Iberolacerta aurelioi",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "medium"
+    },
+    {
+      "source": "Iberolacerta aurelioi",
+      "target": "Iberolacerta aurelioi",
+      "type": "cannibalism",
+      "confidence": "low"
+    },
+    {
+      "source": "Calotriton asper",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Calotriton asper",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Calotriton asper",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Rana temporaria",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Rana temporaria",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "medium"
+    },
+    {
+      "source": "Salmo trutta",
+      "target": "Ephemeroptera",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Salmo trutta",
+      "target": "Plecoptera",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Salmo trutta",
+      "target": "Trichoptera",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Salmo trutta",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Salmo trutta",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Salmo trutta",
+      "target": "Calotriton asper",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Salmo trutta",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Salmo trutta",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Phoxinus spp.",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Phoxinus spp.",
+      "target": "Various",
+      "type": "detritivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "Boloria eunomia",
+      "target": "Bistorta officinalis",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Parnassius mnemosyne",
+      "target": "Corydalis spp.",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Bombus spp.",
+      "target": "Various",
+      "type": "trophallaxis",
+      "confidence": "high"
+    },
+    {
+      "source": "Thaumetopoea pityocampa",
+      "target": "Pinus spp.",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Hemiptera",
+      "target": "Vaccinium myrtillus",
+      "type": "herbivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "Hemiptera",
+      "target": "Nardus stricta",
+      "type": "herbivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "Hemiptera",
+      "target": "Festuca spp.",
+      "type": "herbivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "Hemiptera",
+      "target": "Various",
+      "type": "mutualism",
+      "confidence": "medium"
+    },
+    {
+      "source": "Orthoptera",
+      "target": "Nardus stricta",
+      "type": "herbivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "Orthoptera",
+      "target": "Festuca spp.",
+      "type": "herbivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "Formicidae",
+      "target": "Aphididae",
+      "type": "mutualism",
+      "confidence": "high"
+    },
+    {
+      "source": "Formicidae",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Formicidae",
+      "target": "Various",
+      "type": "scavenging",
+      "confidence": "medium"
+    },
+    {
+      "source": "Ichneumonidae_Braconidae",
+      "target": "Lepidoptera",
+      "type": "parasitoidism",
+      "confidence": "high"
+    },
+    {
+      "source": "Ichneumonidae_Braconidae",
+      "target": "Diptera",
+      "type": "parasitoidism",
+      "confidence": "medium"
+    },
+    {
+      "source": "Ichneumonidae_Braconidae",
+      "target": "Various",
+      "type": "parasitoidism",
+      "confidence": "medium"
+    },
+    {
+      "source": "Araneae",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Araneae",
+      "target": "Aphididae",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Ovis aries musimon",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Dama dama",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Marmota marmota",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Meles meles",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "Sciurus vulgaris",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "Marmota marmota",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "Oryctolagus cuniculus",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "Sciurus vulgaris",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Martes martes",
+      "target": "Oryctolagus cuniculus",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Martes martes",
+      "target": "Sciurus vulgaris",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Felis silvestris",
+      "target": "Oryctolagus cuniculus",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Felis silvestris",
+      "target": "Sciurus vulgaris",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Mustela nivalis",
+      "target": "Oryctolagus cuniculus",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Mustela erminea",
+      "target": "Oryctolagus cuniculus",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "Ovis aries musimon",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "Dama dama",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "Sciurus vulgaris",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Meles meles",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Meles meles",
+      "target": "Oryctolagus cuniculus",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Sciurus vulgaris",
+      "target": "Pinus uncinata",
+      "type": "granivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Sciurus vulgaris",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "low"
+    },
+    {
+      "source": "V-Passeriformes",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "V-Ratpenats",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "V-RapinyairesNocturnesGrans",
+      "target": "V-Micromam\u00edfersPetits",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "V-RapinyairesNocturnesGrans",
+      "target": "V-Passeriformes",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "V-RapinyairesNocturnesGrans",
+      "target": "V-RapinyairesNocturnesPetites",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "V-RapinyairesNocturnesGrans",
+      "target": "Oryctolagus cuniculus",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "V-RapinyairesNocturnesGrans",
+      "target": "V-Insect\u00edvorsMitjans",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "V-RapinyairesNocturnesPetites",
+      "target": "V-Micromam\u00edfersPetits",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "V-RapinyairesNocturnesPetites",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "V-Micromam\u00edfersPetits",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "low"
+    },
+    {
+      "source": "V-Insect\u00edvorsMitjans",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Ursus arctos arctos",
+      "target": "V-Passeriformes",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Martes martes",
+      "target": "V-Passeriformes",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Martes martes",
+      "target": "V-Ratpenats",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Martes martes",
+      "target": "V-RapinyairesNocturnesPetites",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Martes martes",
+      "target": "V-Micromam\u00edfersPetits",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Martes martes",
+      "target": "V-Insect\u00edvorsMitjans",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "V-Passeriformes",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "V-Micromam\u00edfersPetits",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "V-Insect\u00edvorsMitjans",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "V-RapinyairesNocturnesPetites",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "V-Ratpenats",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Felis silvestris",
+      "target": "V-Passeriformes",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Felis silvestris",
+      "target": "V-Micromam\u00edfersPetits",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Felis silvestris",
+      "target": "V-Insect\u00edvorsMitjans",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Felis silvestris",
+      "target": "V-Ratpenats",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Mustela nivalis",
+      "target": "V-Micromam\u00edfersPetits",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Mustela nivalis",
+      "target": "V-Passeriformes",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Mustela erminea",
+      "target": "V-Micromam\u00edfersPetits",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Mustela erminea",
+      "target": "V-Passeriformes",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "V-Passeriformes",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "V-Micromam\u00edfersPetits",
+      "type": "predation",
+      "confidence": "high"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "V-Insect\u00edvorsMitjans",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Meles meles",
+      "target": "V-Insect\u00edvorsMitjans",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Meles meles",
+      "target": "V-Micromam\u00edfersPetits",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Meles meles",
+      "target": "V-Passeriformes",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Bufo bufo",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Salamandra salamandra",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Corvus corax",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Corvus corax",
+      "target": "Various",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Corvus corax",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "medium"
+    },
+    {
+      "source": "Corvus corax",
+      "target": "Various",
+      "type": "scavenging",
+      "confidence": "high"
+    },
+    {
+      "source": "Corvus corax",
+      "target": "V-Micromam\u00edfersPetits",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Corvus corax",
+      "target": "V-Passeriformes",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Corvus corax",
+      "target": "V-Insect\u00edvorsMitjans",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Podarcis muralis",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Zootoca vivipara",
+      "target": "Various",
+      "type": "entomophagy",
+      "confidence": "high"
+    },
+    {
+      "source": "Aquila chrysaetos",
+      "target": "Corvus corax",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Martes martes",
+      "target": "Corvus corax",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "V-RapinyairesNocturnesGrans",
+      "target": "Corvus corax",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Martes martes",
+      "target": "Bufo bufo",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Meles meles",
+      "target": "Bufo bufo",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "Bufo bufo",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Corvus corax",
+      "target": "Bufo bufo",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Martes martes",
+      "target": "Salamandra salamandra",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Meles meles",
+      "target": "Salamandra salamandra",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Corvus corax",
+      "target": "Salamandra salamandra",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Martes martes",
+      "target": "Podarcis muralis",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Martes martes",
+      "target": "Zootoca vivipara",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Mustela nivalis",
+      "target": "Podarcis muralis",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Mustela nivalis",
+      "target": "Zootoca vivipara",
+      "type": "predation",
+      "confidence": "medium"
+    },
+    {
+      "source": "Corvus corax",
+      "target": "Podarcis muralis",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Corvus corax",
+      "target": "Zootoca vivipara",
+      "type": "predation",
+      "confidence": "low"
+    },
+    {
+      "source": "Aphididae",
+      "target": "I2",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Coleoptera",
+      "target": "I2",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Diptera",
+      "target": "I2",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Ephemeroptera",
+      "target": "I2",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Hemiptera",
+      "target": "I2",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Lepidoptera",
+      "target": "I2",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Orthoptera",
+      "target": "I2",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Plecoptera",
+      "target": "I2",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Thaumetopoea pityocampa",
+      "target": "I2",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Trichoptera",
+      "target": "I2",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Araneae",
+      "target": "I3",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Formicidae",
+      "target": "I3",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Ichneumonidae_Braconidae",
+      "target": "I3",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Boloria eunomia",
+      "target": "I1",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Bombus spp.",
+      "target": "I1",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Parnassius mnemosyne",
+      "target": "I1",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Nardus stricta",
+      "target": "P3",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Festuca spp.",
+      "target": "P3",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Vaccinium myrtillus",
+      "target": "P1",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Rupicapra pyrenaica pyrenaica",
+      "target": "P3",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Cervus elaphus",
+      "target": "P3",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Capreolus capreolus",
+      "target": "P3",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Sus scrofa",
+      "target": "P3",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Martes martes",
+      "target": "P1",
+      "type": "frugivory",
+      "confidence": "low"
+    },
+    {
+      "source": "Vulpes vulpes",
+      "target": "P1",
+      "type": "frugivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "Felis silvestris",
+      "target": "P1",
+      "type": "frugivory",
+      "confidence": "low"
+    },
+    {
+      "source": "Meles meles",
+      "target": "P1",
+      "type": "frugivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "Corvus corax",
+      "target": "P1",
+      "type": "frugivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "V-Passeriformes",
+      "target": "P1",
+      "type": "frugivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "V-Insect\u00edvorsMitjans",
+      "target": "P1",
+      "type": "frugivory",
+      "confidence": "low"
+    },
+    {
+      "source": "Boloria eunomia",
+      "target": "P1",
+      "type": "nectarivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Parnassius mnemosyne",
+      "target": "P1",
+      "type": "nectarivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Bombus spp.",
+      "target": "P1",
+      "type": "nectarivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Bombus spp.",
+      "target": "P1",
+      "type": "pollenivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Lagopus muta",
+      "target": "P3",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Ovis aries musimon",
+      "target": "P3",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Dama dama",
+      "target": "P3",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Marmota marmota",
+      "target": "P3",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Oryctolagus cuniculus",
+      "target": "P3",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Sciurus vulgaris",
+      "target": "P3",
+      "type": "granivory",
+      "confidence": "high"
+    },
+    {
+      "source": "V-Micromam\u00edfersPetits",
+      "target": "P3",
+      "type": "herbivory",
+      "confidence": "high"
+    },
+    {
+      "source": "Orthoptera",
+      "target": "P3",
+      "type": "herbivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "Formicidae",
+      "target": "P3",
+      "type": "granivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "Phoxinus spp.",
+      "target": "P2",
+      "type": "herbivory",
+      "confidence": "medium"
+    },
+    {
+      "source": "Hippuris vulgaris",
+      "target": "P2",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Pteridophyta",
+      "target": "P2",
+      "type": "clustermember",
+      "confidence": "high"
+    },
+    {
+      "source": "Bryophyta",
+      "target": "P2",
+      "type": "clustermember",
+      "confidence": "high"
+    }
+  ]
+}

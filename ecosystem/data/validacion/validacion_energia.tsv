@@ -1,0 +1,39 @@
+taxon	species	mass_kg	bmr_kcal_day	dee_old_kcal_day	dee_taxon_kcal_day	dee_taxon_fact	nagy_fmr_kcal_day	iep_kcal_day	balance_kcal_day	plant_pct	invert_pct	vert_pct	intake_max_kg
+Mammalia	Rupicapra pyrenaica pyrenaica	32.5	952.82	1905.64	2382.05	2.5	3360.91	1745.25	-636.8	0.92	0.05	0.03	3.25
+Mammalia	Cervus elaphus	200.0	3722.81	7445.61	9307.02	2.5	13179.4	8880.0	-427.02	0.95	0.03	0.02	20.0
+Mammalia	Capreolus capreolus	20.0	662.02	1324.04	1655.05	2.5	2332.9	870.0	-785.05	0.96	0.03	0.01	2.0
+Mammalia	Sus scrofa	100.0	2213.59	4427.19	5533.99	2.5	7825.66	13200.0	7666.01	0.6	0.2	0.2	10.0
+Mammalia	Ursus arctos arctos	150.0	3000.31	6000.62	7500.78	2.5	10615.53	24975.0	17474.22	0.4	0.3	0.3	13.5
+Mammalia	Lutra lutra	9.5	378.78	757.57	946.96	2.5	1332.81	1162.8	215.84	0.0	0.1	0.9	0.76
+Mammalia	Galemys pyrenaicus	0.015	3.0	6.0	7.5	2.5	10.42	5.85	-1.65	0.0	0.95	0.05	0.0013
+Mammalia	Martes martes	1.5	94.88	189.76	237.2	2.5	332.61	259.88	22.68	0.25	0.25	0.5	0.135
+Mammalia	Vulpes vulpes	6.0	268.36	536.71	670.89	2.5	943.39	933.6	262.71	0.2	0.25	0.55	0.48
+Mammalia	Felis silvestris	4.0	197.99	395.98	494.97	2.5	695.46	582.4	87.43	0.1	0.2	0.7	0.32
+Mammalia	Mustela nivalis	0.08	10.53	21.06	26.32	2.5	36.7	11.9	-14.42	0.0	0.2	0.8	0.0064
+Mammalia	Mustela erminea	0.15000000000000002	16.87	33.74	42.18	2.5	58.88	22.32	-19.86	0.0	0.2	0.8	0.012
+Aves	Tetrao urogallus (subsp. pirenaica)	4.25	340.1	414.4	952.29	2.8	764.97	649.83	-302.46	0.7	0.28	0.02	0.425
+Aves	Lagopus muta	0.5	81.08	83.24	227.02	2.8	169.56	36.0	-191.02	0.9	0.1	0.0	0.05
+Aves	Gypaetus barbatus	5.5	404.23	502.81	1131.85	2.8	917.22	557.04	-574.81	0.0	0.02	0.98	0.44
+Aves	Aquila chrysaetos	4.0	326.57	395.98	914.38	2.8	733.01	476.0	-438.38	0.05	0.1	0.85	0.32
+Aves	Corvus corax	1.1	137.51	150.37	385.02	2.8	295.39	156.64	-228.38	0.2	0.2	0.6	0.088
+Reptilia	Iberolacerta aurelioi	0.015	0.0	6.0	0.01	3.0	0.93	5.83	5.82	0.02	0.95	0.03	0.0013
+Reptilia	Podarcis muralis	0.0055	0.0	2.83	0.0	3.0	0.41	2.11	2.1	0.05	0.94	0.01	0.0005
+Reptilia	Zootoca vivipara	0.004	0.0	2.23	0.0	3.0	0.32	1.53	1.53	0.05	0.94	0.01	0.0004
+Amphibia	Calotriton asper	0.0075	0.0	3.57	0.01	2.5	0.9	2.93	2.92	0.0	0.95	0.05	0.0007
+Amphibia	Rana temporaria	0.025	0.01	8.8	0.03	2.5	1.96	9.75	9.73	0.0	0.95	0.05	0.0022
+Amphibia	Bufo bufo	0.05	0.02	14.8	0.05	2.5	3.05	19.02	18.97	0.05	0.93	0.02	0.0045
+Amphibia	Salamandra salamandra	0.035	0.01	11.33	0.03	2.5	2.43	13.71	13.67	0.02	0.96	0.02	0.0032
+Actinopterygii	Salmo trutta	1.25	0.16	165.5	0.31	2.0	0	421.88	421.56	0.1	0.8	0.1	0.1125
+Actinopterygii	Phoxinus spp.	0.030000000000000002	0.01	10.09	0.02	2.0	0	7.86	7.84	0.3	0.6	0.1	0.0027
+Mammalia	Ovis aries musimon	37.5	1060.77	2121.54	2651.93	2.5	3742.77	1665.0	-986.93	0.95	0.03	0.02	3.75
+Mammalia	Dama dama	57.5	1461.67	2923.34	3654.17	2.5	5161.68	2501.25	-1152.92	0.96	0.03	0.01	5.75
+Mammalia	Marmota marmota	4.55	218.08	436.15	545.19	2.5	766.21	217.03	-328.15	0.95	0.04	0.01	0.455
+Mammalia	Oryctolagus cuniculus	1.2	80.26	160.51	200.64	2.5	281.23	47.16	-153.48	0.97	0.02	0.01	0.12
+Mammalia	Meles meles	11.0	422.81	845.61	1057.02	2.5	1488.16	2356.2	1299.18	0.35	0.4	0.25	0.99
+Mammalia	Sciurus vulgaris	0.30000000000000004	28.38	56.75	70.94	2.5	99.16	14.31	-56.63	0.95	0.04	0.01	0.03
+Cluster_Vertebrat	V-Passeriformes	0.052500000000000005	7.68	15.35	17.66	2.3	0	15.71	-1.95	0.3	0.68	0.02	0.0047
+Cluster_Vertebrat	V-Ratpenats	0.017	3.3	6.59	7.58	2.3	0	6.88	-0.69	0.0	1.0	0.0	0.0015
+Cluster_Vertebrat	V-RapinyairesNocturnesGrans	1.45	92.5	184.99	212.74	2.3	0	158.34	-54.4	0.0	0.05	0.95	0.116
+Cluster_Vertebrat	V-RapinyairesNocturnesPetites	0.23500000000000001	23.63	47.25	54.34	2.3	0	63.77	9.43	0.0	0.55	0.45	0.0212
+Cluster_Vertebrat	V-MicromamífersPetits	0.026500000000000003	4.6	9.2	10.57	2.3	0	3.96	-6.62	0.7	0.28	0.02	0.0027
+Cluster_Vertebrat	V-InsectívorsMitjans	0.62	48.91	97.82	112.49	2.3	0	210.92	98.43	0.15	0.8	0.05	0.0558

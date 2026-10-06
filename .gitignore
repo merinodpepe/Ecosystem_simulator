@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.ruff_cache/
+
+# R
+.Rhistory
+
+# Rust
+simulator/target/
+simulator/output_*/snap_*.json
+simulator/output_*/log_*.json

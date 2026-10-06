@@ -1,0 +1,4 @@
+day,n_alive,n_dead,n_total,total_plant_kg,total_invert_kg,total_carcass_kg,avg_energy,season,temp_avg
+0,48,0,48,9676.0,654.8,0.0,311610.8,winter,-6.8
+10,48,0,48,9291.2,626.1,0.0,311649.2,winter,-6.7
+20,48,0,48,9021.6,604.1,0.0,308304.9,winter,-6.2

@@ -1,0 +1,1364 @@
+{
+  "day": 300,
+  "agents": [
+    {
+      "id": 303,
+      "species": "Cervus_elaphus",
+      "x": 2,
+      "y": 147,
+      "alive": true,
+      "energy_kcal": 45208.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 309,
+      "species": "Cervus_elaphus",
+      "x": 0,
+      "y": 146,
+      "alive": true,
+      "energy_kcal": 7481.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 315,
+      "species": "Cervus_elaphus",
+      "x": 17,
+      "y": 190,
+      "alive": true,
+      "energy_kcal": 74599.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 318,
+      "species": "Cervus_elaphus",
+      "x": 19,
+      "y": 185,
+      "alive": true,
+      "energy_kcal": 64586.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 325,
+      "species": "Cervus_elaphus",
+      "x": 125,
+      "y": 192,
+      "alive": true,
+      "energy_kcal": 14899.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 327,
+      "species": "Cervus_elaphus",
+      "x": 14,
+      "y": 192,
+      "alive": true,
+      "energy_kcal": 109035.9,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 331,
+      "species": "Cervus_elaphus",
+      "x": 10,
+      "y": 159,
+      "alive": true,
+      "energy_kcal": 79589.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 334,
+      "species": "Cervus_elaphus",
+      "x": 1,
+      "y": 149,
+      "alive": true,
+      "energy_kcal": 63175.8,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 345,
+      "species": "Cervus_elaphus",
+      "x": 137,
+      "y": 185,
+      "alive": true,
+      "energy_kcal": 116004.3,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 361,
+      "species": "Cervus_elaphus",
+      "x": 14,
+      "y": 176,
+      "alive": true,
+      "energy_kcal": 175319.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 363,
+      "species": "Cervus_elaphus",
+      "x": 19,
+      "y": 181,
+      "alive": true,
+      "energy_kcal": 42403.3,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 365,
+      "species": "Cervus_elaphus",
+      "x": 126,
+      "y": 191,
+      "alive": true,
+      "energy_kcal": 12434.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 369,
+      "species": "Cervus_elaphus",
+      "x": 3,
+      "y": 116,
+      "alive": true,
+      "energy_kcal": 4125.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 379,
+      "species": "Cervus_elaphus",
+      "x": 3,
+      "y": 131,
+      "alive": true,
+      "energy_kcal": 40793.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1125,
+      "species": "Martes_martes",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 4711.8,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1143,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 17729.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1144,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 24861.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1145,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 15061.3,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1146,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 5299.9,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1147,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 8830.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1148,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 24086.4,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1149,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 17854.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1150,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 24411.3,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1151,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 17857.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1152,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 14937.4,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1153,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 26132.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1154,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 13771.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1155,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 24356.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1156,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 18705.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1157,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 23870.3,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1158,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 5548.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1159,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 23956.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1160,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 12090.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1161,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 17973.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1162,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 15504.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1163,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 24966.9,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1164,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 23631.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1165,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 19802.3,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1166,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 5290.4,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1167,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 31538.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1168,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 23964.8,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1169,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 19192.8,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1170,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 7021.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1171,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 24586.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1172,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 24098.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1173,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 15430.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1174,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 15721.8,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1175,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 6212.9,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1176,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 14943.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1177,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 16101.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1178,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 9359.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1179,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 17941.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1180,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 19968.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1181,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 7050.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1182,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 15893.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1183,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 16206.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1184,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 7759.8,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1185,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 15700.8,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1186,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 16889.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1187,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 18265.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1188,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 19145.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1189,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 23805.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1190,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 16301.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1191,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 6122.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1192,
+      "species": "Mustela_erminea",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 9021.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1193,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 17087.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1194,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 5611.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1195,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 14855.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1196,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 3630.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1197,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 31612.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1198,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 21305.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1199,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 5594.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1200,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 22053.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1201,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 10164.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1202,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 1411.9,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1203,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 12348.9,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1204,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 26804.8,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1205,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 16198.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1206,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 29811.3,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1207,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 3853.3,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1208,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 14732.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1210,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 14028.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1211,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 24955.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1212,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 17213.3,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1213,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 23885.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1214,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 2089.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1215,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 16904.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1216,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 24716.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1217,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 20160.8,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1218,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 19201.9,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1219,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 6825.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1220,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 13788.3,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1221,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 7224.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1222,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 7965.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1224,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 4459.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1225,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 5408.9,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1226,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 19510.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1227,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 7831.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1228,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 3516.4,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1229,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 13512.4,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1230,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 3602.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1231,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 17089.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1232,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 17703.9,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1233,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 6251.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1234,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 15496.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1235,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 31278.3,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1236,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 11631.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1237,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 7979.8,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1238,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 2753.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1239,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 18834.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1241,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 730.3,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1242,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 5384.4,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1243,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 14118.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1244,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 2133.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1245,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 16126.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1246,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 17194.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1247,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 19856.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1248,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 19065.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1249,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 18265.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1250,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 8202.0,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1253,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 7830.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1254,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 23499.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1255,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 1694.9,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1256,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 11217.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1257,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 7586.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1258,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 18067.1,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1259,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 15674.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1260,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 6672.6,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1261,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 17431.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1262,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 8607.8,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1263,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 1470.7,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1264,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 13664.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1265,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 30948.5,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1266,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 2527.2,
+      "age_days": 301.0,
+      "pregnant": false
+    },
+    {
+      "id": 1267,
+      "species": "Mustela_nivalis",
+      "x": 0,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 19125.6,
+      "age_days": 301.0,
+      "pregnant": false
+    }
+  ],
+  "pools": {
+    "plants": 219612.6,
+    "inverts": 38998.5,
+    "fish": 0.0,
+    "herps": 0.0,
+    "passerines": 0.0,
+    "micromammals": 0.0,
+    "bats": 0.0
+  }
+}

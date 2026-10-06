@@ -1,0 +1,27 @@
+[project]
+name = "alt-pirineu-sim"
+version = "0.1.0"
+description = "Agent-based ecosystem simulator for Parc Natural de l'Alt Pirineu"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.25",
+    "numba>=0.58",
+    "rasterio>=1.3",
+    "geopandas>=0.14",
+    "shapely>=2.0",
+    "pyproj>=3.6",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-benchmark", "hypothesis", "ipython", "jupyter"]
+viz = ["plotly>=5.15", "dash>=2.14"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

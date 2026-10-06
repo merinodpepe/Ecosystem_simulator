@@ -1,0 +1,74 @@
+{
+  "day": 0,
+  "agents": [
+    {
+      "id": 0,
+      "species_key": "Rupicapra_pyrenaica",
+      "nick": "Isard",
+      "guild": "HERBIVORE",
+      "x": 366,
+      "y": 20,
+      "alive": true,
+      "energy": 173688.5,
+      "age": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 1,
+      "species_key": "Rupicapra_pyrenaica",
+      "nick": "Isard",
+      "guild": "HERBIVORE",
+      "x": 324,
+      "y": 35,
+      "alive": true,
+      "energy": 174161.2,
+      "age": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 2,
+      "species_key": "Rupicapra_pyrenaica",
+      "nick": "Isard",
+      "guild": "HERBIVORE",
+      "x": 195,
+      "y": 125,
+      "alive": true,
+      "energy": 174161.2,
+      "age": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 3,
+      "species_key": "Rupicapra_pyrenaica",
+      "nick": "Isard",
+      "guild": "HERBIVORE",
+      "x": 368,
+      "y": 48,
+      "alive": true,
+      "energy": 173423.7,
+      "age": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 4,
+      "species_key": "Rupicapra_pyrenaica",
+      "nick": "Isard",
+      "guild": "HERBIVORE",
+      "x": 259,
+      "y": 45,
+      "alive": true,
+      "energy": 174161.2,
+      "age": 1.0,
+      "pregnant": false
+    }
+  ],
+  "pools": {
+    "plants": 432469.0,
+    "inverts": 28309.4,
+    "fish": 0.0,
+    "herps": 0.0,
+    "passerines": 0.0,
+    "micromammals": 0.0,
+    "bats": 0.0
+  }
+}

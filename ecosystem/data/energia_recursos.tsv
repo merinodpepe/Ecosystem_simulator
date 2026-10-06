@@ -1,0 +1,22 @@
+tipo_recurso	subtipo	kcal_por_g_humedo	rango_min	rango_max	fuente
+Plantas	Hoja tierna	0.30	0.20	0.40	USDA FoodData Central – Raw spinach (aprox.)
+Plantas	Hoja madura fibrosa	0.20	0.10	0.30	USDA – Raw kale
+Plantas	Fruto carnoso (bayas, manzana silvestre)	0.80	0.60	1.00	USDA – Raw blackberries, Raw apple with skin
+Plantas	Fruto seco (nuez, avellana)	5.50	4.50	6.50	USDA – Raw sunflower seeds, Raw almonds
+Plantas	Semilla oleaginosa (girasol, linaza)	5.50	4.50	6.50	USDA – Raw sunflower seeds
+Plantas	Raíz / tubérculo (zanahoria silvestre)	0.40	0.30	0.50	USDA – Raw carrots
+Invertebrados	Lepidoptera – larva (oruga)	5.00	4.50	5.50	Sloan et al. 2019 – Energy content of Lepidoptera larvae (dry ~20%, converted to wet assuming 80% water)
+Invertebrados	Lepidoptera – adulto (mariposa)	4.80	4.20	5.20	idem
+Invertebrados	Coleóptero – adulto (escarabajo)	4.80	4.20	5.20	Sloan et al. 2019
+Invertebrados	Araneae – araña	4.50	4.00	5.00	Greenstone & Bennett 1980
+Invertebrados	Formicidae – hormiga obrera	4.20	3.80	4.60	Lighton & Wehner 1993
+Invertebrados	Oligochaeta – lombriz de tierra	3.80	3.50	4.20	Bouché 1977
+Vertebrados	Músculo esquelético (magro)	1.20	1.00	1.40	USDA – Raw venison (lean)
+Vertebrados	Tejido muscular medio (con grasa intramuscular)	1.60	1.40	1.80	USDA – Raw beef, composite cuts
+Vertebrados	Grasa subcutánea / visceral	9.30	8.50	10.00	USDA – Raw beef fat
+Vertebrados	Órgano – hígado	1.60	1.40	1.80	USDA – Raw beef liver
+Vertebrados	Órgano – riñón	1.40	1.20	1.60	USDA – Raw beef kidney
+Vertebrados	Órgano – corazón	1.30	1.10	1.50	USDA – Raw beef heart
+Vertebrados	Sangre (plasma + células)	0.80	0.60	1.00	Estimado basado en composición de glucosa y lípidos
+Vertebrados	Piel (con pelo)	0.90	0.70	1.10	Estimado a partir de colágeno y lípidos
+Hongos	Carpófobo comestible (Boletus edulis)	0.30	0.20	0.40	USDA – Raw mushrooms

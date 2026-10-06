@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visualizador de Red Trófica - Parc Natural de l'Alt Pirineu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            text-align: center; color: #7f8c8d; margin-top: 0; margin-bottom: 20px;
+        }
+        #network-container {
+            width: 100%;
+            height: 650px;
+            border: 1px solid #ddd;
+            background-color: white;
+            border-radius: 4px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .controls {
+            background-color: white;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .control-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px 16px;
+            padding: 8px 0;
+        }
+        .control-row + .control-row {
+            border-top: 1px solid #eee;
+        }
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .control-group label {
+            font-weight: bold;
+            font-size: 0.85em;
+            white-space: nowrap;
+        }
+        .controls select, .controls button, .controls input[type="file"] {
+            padding: 6px 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            background-color: white;
+            font-size: 0.85em;
+        }
+        .controls button {
+            background-color: #3498db;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .controls button:hover {
+            background-color: #2980b9;
+        }
+        .controls button.danger {
+            background-color: #e74c3c;
+        }
+        .controls button.danger:hover {
+            background-color: #c0392b;
+        }
+        .controls button.success {
+            background-color: #27ae60;
+        }
+        .controls button.success:hover {
+            background-color: #219a52;
+        }
+        .controls button.warning {
+            background-color: #f39c12;
+        }
+        .controls button.warning:hover {
+            background-color: #d68910;
+        }
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 36px;
+            height: 20px;
+            margin: 0 4px;
+        }
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-color: #ccc;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 14px;
+            width: 14px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            border-radius: 50%;
+            transition: 0.3s;
+        }
+        .toggle-switch input:checked + .toggle-slider {
+            background-color: #3498db;
+        }
+        .toggle-switch input:checked + .toggle-slider:before {
+            transform: translateX(16px);
+        }
+        .file-status {
+            color: #7f8c8d;
+            font-size: 0.85em;
+        }
+        .info-panel {
+            background-color: white;
+            padding: 15px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .info-panel h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .stat-item {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 3px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .stat-label {
+            font-size: 0.85em;
+            color: #7f8c8d;
+        }
+        .legend {
+            margin-top: 15px;
+            padding-top: 10px;
+            border-top: 1px solid #eee;
+        }
+        .legend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 4px 20px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 3px 0;
+            font-size: 0.9em;
+        }
+        .legend-color {
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            margin-right: 8px;
+            flex-shrink: 0;
+        }
+        .legend-edge {
+            display: inline-block;
+            width: 28px;
+            height: 2px;
+            margin-right: 8px;
+            flex-shrink: 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #7f8c8d;
+            font-size: 0.85em;
+        }
+        @media (max-width: 600px) {
+            .control-row { flex-direction: column; align-items: flex-start; }
+            .control-group { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <h1>🕸️ Visualizador de Xarxa Tròfica</h1>
+    <p class="subtitle">Parc Natural de l'Alt Pirineu · Simulador d'Ecosistema</p>
+
+    <div class="controls">
+        <div class="control-row">
+            <div class="control-group">
+                <label for="graph-file-input">📂 Grafo:</label>
+                <input type="file" id="graph-file-input" accept=".json,application/json">
+            </div>
+            <button id="load-graph-btn">Cargar</button>
+            <button id="refresh-btn">↻ Recargar</button>
+            <button id="fit-screen-btn">⊞ Ajustar</button>
+            <button id="download-png-btn" class="success">⬇ PNG</button>
+            <span id="file-status" class="file-status"></span>
+        </div>
+
+        <div class="control-row">
+            <div class="control-group">
+                <label>Física:</label>
+                <select id="physics-toggle" style="width:100px;">
+                    <option value="true">Activada</option>
+                    <option value="false">Desactivada</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label>Interacción:</label>
+                <select id="interaction-filter" style="width:140px;">
+                    <option value="all">Totes</option>
+                    <option value="predation">Predació</option>
+                    <option value="herbivory">Herbivoría</option>
+                    <option value="frugivory">Frugivoría</option>
+                    <option value="entomophagy">Entomofagia</option>
+                    <option value="parasitoidism">Parasitoidisme</option>
+                    <option value="mutualism">Mutualisme</option>
+                    <option value="scavenging">Carronyaire</option>
+                    <option value="cannibalism">Canibalisme</option>
+                    <option value="nectarivory">Nectarivoría</option>
+                    <option value="pollenivory">Pol·lenivoría</option>
+                    <option value="trophallaxis">Trofalaxi</option>
+                    <option value="detritivory">Detritivoría</option>
+                    <option value="granivory">Granivoría</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label>Labels:</label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="labels-toggle" checked>
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="control-group">
+                <label>Aristes:</label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="edge-labels-toggle" checked>
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="control-group">
+                <label>Clústers:</label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="cluster-toggle" checked>
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="control-group">
+                <label>Rec.Generals:</label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="general-toggle" checked>
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div id="network-container"></div>
+
+    <div class="info-panel">
+        <h2>📊 Informació de la Xarxa</h2>
+        <div id="network-stats" class="stats">
+            <div class="stat-item">
+                <div class="stat-value" id="node-count">-</div>
+                <div class="stat-label">Nodos (Espècies)</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="edge-count">-</div>
+                <div class="stat-label">Aristes (Interaccions)</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="herbivore-count">-</div>
+                <div class="stat-label">Herbívors</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="carnivore-count">-</div>
+                <div class="stat-label">Carnívors</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="omnivore-count">-</div>
+                <div class="stat-label">Omnívors</div>
+            </div>
+        </div>
+
+        <div class="legend">
+            <h3>🎨 Llegenda</h3>
+            <div style="display:flex; flex-wrap:wrap; gap:20px;">
+                <div style="flex:1; min-width:200px;">
+                    <h4 style="margin:8px 0 4px; font-size:0.95em;">🐾 Taxons (Nodos)</h4>
+                    <div class="legend-grid">
+                        <div class="legend-item"><span class="legend-color" style="background:#3498db; border-radius:50%;"></span> Mamífers</div>
+                        <div class="legend-item"><span class="legend-color" style="background:#e74c3c; border-radius:50%;"></span> Aus</div>
+                        <div class="legend-item"><span class="legend-color" style="background:#9b59b6; border-radius:50%;"></span> Insectes</div>
+                        <div class="legend-item"><span class="legend-color" style="background:#1abc9c; border-radius:50%;"></span> Peixos</div>
+                        <div class="legend-item"><span class="legend-color" style="background:#f1c40f; border-radius:50%;"></span> Amfibis</div>
+                        <div class="legend-item"><span class="legend-color" style="background:#d35400; border-radius:50%;"></span> Rèptils</div>
+                        <div class="legend-item"><span class="legend-color" style="background:#27ae60; border-radius:50%;"></span> Plantes</div>
+                        <div class="legend-item"><span class="legend-color" style="background:#2ecc71; border-radius:3px;"></span> Clúster Plantes</div>
+                        <div class="legend-item"><span class="legend-color" style="background:#8e44ad; border-radius:3px;"></span> Clúster Invertebrats</div>
+                        <div class="legend-item"><span class="legend-color" style="background:#e67e22; border-radius:3px;"></span> Clúster Vertebrats</div>
+                        <div class="legend-item"><span class="legend-color" style="background:#7f8c8d; border-radius:3px;"></span> Recurs General</div>
+                    </div>
+                </div>
+                <div style="flex:1; min-width:200px;">
+                    <h4 style="margin:8px 0 4px; font-size:0.95em;">🔗 Interaccions (Aristes)</h4>
+                    <div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#ff0000;"></span> Predació</div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#00aa00;"></span> Herbivoría</div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#008800;"></span> Frugivoría</div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#8B0000;"></span> Entomofagia</div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#8B008B;"></span> Parasitoidisme</div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#0000CD;"></span> Mutualisme</div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#8B4513;"></span> Carronyaire</div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#FF1493;"></span> Canibalisme</div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#FF69B4;"></span> Nectarivoría</div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#DA70D6;"></span> Pol·lenivoría</div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#9370DB;"></span> Trofalaxi</div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#696969;"></span> Detritivoría</div>
+                        <div class="legend-item"><span class="legend-edge" style="background:#CD853F;"></span> Granivoría</div>
+                        <div class="legend-item"><span style="display:inline-block; width:28px; height:0; border-top:2px dashed #95a5a6; margin-right:8px; vertical-align:middle;"></span> Pertinença clúster</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Projecte Ecosystem Simulator · Parc Natural de l'Alt Pirineu<br>
+        Dades: trophic_matrix.tsv · Visualització: vis-network
+    </footer>
+
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+    <script>
+        let network = null;
+        let allNodes = [];
+        let allEdges = [];
+
+        const taxonColors = {
+            'Mammalia': '#3498db',
+            'Aves': '#e74c3c',
+            'Insecta': '#9b59b6',
+            'Actinopterygii': '#1abc9c',
+            'Amphibia': '#f1c40f',
+            'Reptilia': '#d35400',
+            'Plantae': '#27ae60',
+            'Cluster_Planta': '#2ecc71',
+            'Cluster_Invertebrat': '#8e44ad',
+            'Cluster_Vertebrat': '#e67e22',
+            'Recurs_General': '#7f8c8d'
+        };
+
+        function getNodeShape(taxon) {
+            if (taxon === 'Cluster_Planta' || taxon === 'Cluster_Invertebrat' || taxon === 'Cluster_Vertebrat') return 'square';
+            if (taxon === 'Recurs_General') return 'diamond';
+            return 'dot';
+        }
+
+        function getNodeSize(taxon) {
+            if (taxon === 'Cluster_Planta' || taxon === 'Cluster_Invertebrat' || taxon === 'Cluster_Vertebrat') return 38;
+            if (taxon === 'Recurs_General') return 32;
+            return 28;
+        }
+
+        function getNodeFontSize(taxon) {
+            if (taxon === 'Cluster_Planta' || taxon === 'Cluster_Invertebrat' || taxon === 'Cluster_Vertebrat') return 14;
+            if (taxon === 'Recurs_General') return 13;
+            return 18;
+        }
+
+        const interactionColors = {
+            'predation': '#ff0000',
+            'herbivory': '#00aa00',
+            'frugivory': '#008800',
+            'entomophagy': '#8B0000',
+            'parasitoidism': '#8B008B',
+            'mutualism': '#0000CD',
+            'scavenging': '#8B4513',
+            'cannibalism': '#FF1493',
+            'nectarivory': '#FF69B4',
+            'pollenivory': '#DA70D6',
+            'trophallaxis': '#9370DB',
+            'detritivory': '#696969',
+            'granivory': '#CD853F'
+        };
+
+        function buildNetworkFromData(graphData) {
+            if (graphData.nodes && Array.isArray(graphData.nodes)) {
+                allNodes = graphData.nodes.map(node => {
+                    const color = taxonColors[node.taxon] || '#95a5a6';
+                    const shape = getNodeShape(node.taxon);
+                    const size = getNodeSize(node.taxon);
+                    const fontSize = getNodeFontSize(node.taxon);
+                    return {
+                        id: node.id,
+                        label: node.label || node.id,
+                        title: node.title || `<b>Taxon:</b> ${node.taxon}<br><b>ID:</b> ${node.id}`,
+                        shape: shape,
+                        size: size,
+                        color: {
+                            background: color,
+                            border: '#2c3e50',
+                            highlight: { background: '#fff', border: '#2c3e50' }
+                        },
+                        font: {
+                            color: '#2c3e50',
+                            size: fontSize,
+                            strokeWidth: 3,
+                            strokeColor: '#ffffff'
+                        },
+                        borderWidth: shape === 'dot' ? 2 : 3,
+                        _taxon: node.taxon
+                    };
+                });
+
+                allEdges = graphData.edges.map(edge => {
+                    const color = interactionColors[edge.type] || '#95a5a6';
+                    let width = 2;
+                    if (edge.confidence === 'high') width = 3;
+                    else if (edge.confidence === 'medium') width = 2;
+                    else if (edge.confidence === 'low') width = 1;
+
+                    const isClusterEdge = edge.type === 'clustermember';
+
+                    return {
+                        from: edge.source,
+                        to: edge.target,
+                        type: edge.type,
+                        label: isClusterEdge ? '' : edge.type,
+                        title: `<b>Tipus:</b> ${edge.type}<br><b>Confiança:</b> ${edge.confidence}`,
+                        color: {
+                            color: isClusterEdge ? '#95a5a6' : color,
+                            highlight: '#ff0000',
+                            hover: '#ff0000'
+                        },
+                        width: isClusterEdge ? 1 : width,
+                        dashes: isClusterEdge,
+                        arrows: {
+                            to: {
+                                enabled: !isClusterEdge,
+                                scaleFactor: 0.8
+                            }
+                        },
+                        font: {
+                            color: '#2c3e50',
+                            size: 11,
+                            align: 'middle',
+                            strokeWidth: 2,
+                            strokeColor: '#ffffff'
+                        },
+                        _isCluster: isClusterEdge
+                    };
+                });
+            } else if (graphData.nodes && typeof graphData.nodes === 'object' && !Array.isArray(graphData.nodes)) {
+                allNodes = Object.entries(graphData.nodes).map(([id, taxon]) => {
+                    const color = taxonColors[taxon] || '#95a5a6';
+                    const shape = getNodeShape(taxon);
+                    const size = getNodeSize(taxon);
+                    const fontSize = getNodeFontSize(taxon);
+                    return {
+                        id: id,
+                        label: id,
+                        title: `<b>Taxon:</b> ${taxon}<br><b>ID:</b> ${id}`,
+                        shape: shape,
+                        size: size,
+                        color: {
+                            background: color,
+                            border: '#2c3e50',
+                            highlight: { background: '#fff', border: '#2c3e50' }
+                        },
+                        font: {
+                            color: '#2c3e50',
+                            size: fontSize,
+                            strokeWidth: 3,
+                            strokeColor: '#ffffff'
+                        },
+                        borderWidth: shape === 'dot' ? 2 : 3,
+                        _taxon: taxon
+                    };
+                });
+
+                allEdges = graphData.edges.map(edge => {
+                    const [source, target, type, confidence] = edge;
+                    const color = interactionColors[type] || '#95a5a6';
+                    let width = 2;
+                    if (confidence === 'high') width = 3;
+                    else if (confidence === 'medium') width = 2;
+                    else if (confidence === 'low') width = 1;
+
+                    const isClusterEdge = type === 'clustermember';
+
+                    return {
+                        from: source,
+                        to: target,
+                        type: type,
+                        label: isClusterEdge ? '' : type,
+                        title: `<b>Tipus:</b> ${type}<br><b>Confiança:</b> ${confidence}`,
+                        color: {
+                            color: isClusterEdge ? '#95a5a6' : color,
+                            highlight: '#ff0000',
+                            hover: '#ff0000'
+                        },
+                        width: isClusterEdge ? 1 : width,
+                        dashes: isClusterEdge,
+                        arrows: {
+                            to: {
+                                enabled: !isClusterEdge,
+                                scaleFactor: 0.8
+                            }
+                        },
+                        font: {
+                            color: '#2c3e50',
+                            size: 11,
+                            align: 'middle',
+                            strokeWidth: 2,
+                            strokeColor: '#ffffff'
+                        },
+                        _isCluster: isClusterEdge
+                    };
+                });
+            } else {
+                throw new Error('Format de grafo no reconegut');
+            }
+
+            updateStatistics();
+
+            const container = document.getElementById('network-container');
+            const data = {
+                nodes: new vis.DataSet(allNodes),
+                edges: new vis.DataSet(allEdges)
+            };
+
+            const options = {
+                nodes: {
+                    shape: 'dot',
+                    size: 28,
+                    font: { size: 18, strokeWidth: 3, strokeColor: '#ffffff' },
+                    borderWidth: 2
+                },
+                edges: {
+                    width: 2,
+                    color: { inherit: true },
+                    smooth: { type: 'continuous' }
+                },
+                physics: {
+                    enabled: true,
+                    barnesHut: {
+                        gravitationalConstant: -12000,
+                        centralGravity: 0.25,
+                        springLength: 400,
+                        springConstant: 0.03,
+                        damping: 0.085
+                    },
+                    minVelocity: 0.5,
+                    solver: 'barnesHut'
+                },
+                interaction: {
+                    hover: true,
+                    tooltipDelay: 200,
+                    hideEdgesOnDrag: false,
+                    navigationButtons: true,
+                    keyboard: true
+                },
+                layout: {
+                    improvedLayout: true
+                }
+            };
+
+            network = new vis.Network(container, data, options);
+            network.once("stabilizationIterationsDone", function () {
+                network.fit({ animation: true });
+            });
+
+            network.on("click", function (params) {
+                params.event.originalEvent.stopPropagation();
+            });
+
+            network.on("doubleClick", function (params) {
+                params.event.originalEvent.stopPropagation();
+                if (params.nodes.length > 0) {
+                    network.focus(params.nodes[0], { scale: 1.5, animation: true });
+                }
+            });
+        }
+
+        function loadGraphFromFile(file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const graphData = JSON.parse(e.target.result);
+                    document.getElementById('network-container').innerHTML = '';
+                    buildNetworkFromData(graphData);
+                    const el = document.getElementById('file-status');
+                    el.textContent = '✓ ' + file.name;
+                    el.style.color = '#27ae60';
+                    setTimeout(() => { if (network) network.fit({ animation: true }); }, 500);
+                } catch (err) {
+                    document.getElementById('network-container').innerHTML =
+                        `<p style="text-align:center;padding:50px;color:#e74c3c;">Error: ${err.message}</p>`;
+                    const el = document.getElementById('file-status');
+                    el.textContent = '✗ Error';
+                    el.style.color = '#e74c3c';
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        async function loadAndDisplayGraph() {
+            try {
+                document.getElementById('network-container').innerHTML =
+                    '<p style="text-align:center;padding:50px;color:#7f8c8d;">🔄 Carregant dades...</p>';
+                const response = await fetch('../data/ecosystem_graph_standard.json');
+                if (!response.ok) throw new Error('HTTP ' + response.status);
+                const graphData = await response.json();
+                buildNetworkFromData(graphData);
+                const el = document.getElementById('file-status');
+                el.textContent = '✓ ecosystem_graph_standard.json';
+                el.style.color = '#27ae60';
+                setTimeout(() => { if (network) network.fit({ animation: true }); }, 500);
+            } catch (error) {
+                console.warn('No es va poder carregar automàticament:', error.message);
+                document.getElementById('network-container').innerHTML =
+                    `<div style="text-align:center;padding:60px 20px;color:#555;">
+                        <p style="font-size:1.2em;margin-bottom:15px;">📂 Selecciona un fitxer JSON</p>
+                        <p style="color:#7f8c8d;font-size:0.9em;">Botó "Cargar" → <code>ecosystem_graph_standard.json</code></p>
+                    </div>`;
+            }
+        }
+
+        function updateStatistics() {
+            document.getElementById('node-count').textContent = allNodes.length;
+            document.getElementById('edge-count').textContent = allEdges.length;
+
+            const herbivoreSet = new Set();
+            const carnivoreSet = new Set();
+
+            allEdges.forEach(edge => {
+                if (['herbivory', 'frugivory', 'granivory', 'detritivory', 'nectarivory', 'pollenivory'].includes(edge.type)) {
+                    herbivoreSet.add(edge.from);
+                }
+                if (edge.type === 'predation' || edge.type === 'cannibalism' || edge.type === 'entomophagy') {
+                    carnivoreSet.add(edge.from);
+                }
+            });
+
+            const onlyHerb = new Set([...herbivoreSet].filter(x => !carnivoreSet.has(x)));
+            const onlyCarn = new Set([...carnivoreSet].filter(x => !herbivoreSet.has(x)));
+            const omnivores = new Set([...herbivoreSet].filter(x => carnivoreSet.has(x)));
+
+            document.getElementById('herbivore-count').textContent = onlyHerb.size;
+            document.getElementById('carnivore-count').textContent = onlyCarn.size;
+            document.getElementById('omnivore-count').textContent = omnivores.size;
+        }
+
+        function applyFilters() {
+            if (!network) return;
+
+            const physicsOn = document.getElementById('physics-toggle').value === 'true';
+            const interactionFilter = document.getElementById('interaction-filter').value;
+            const showLabels = document.getElementById('labels-toggle').checked;
+            const showEdgeLabels = document.getElementById('edge-labels-toggle').checked;
+            const showClusters = document.getElementById('cluster-toggle').checked;
+            const showGeneral = document.getElementById('general-toggle').checked;
+
+            network.setOptions({ physics: { enabled: physicsOn } });
+
+            // Build filtered edge list
+            const filteredEdges = allEdges.filter(edge => {
+                if (!showClusters && edge._isCluster) return false;
+                return interactionFilter === 'all' || edge._isCluster || edge.type === interactionFilter;
+            });
+
+            // Determine which nodes are visible (have at least one edge or aren't hidden by toggles)
+            const connectedNodes = new Set();
+            filteredEdges.forEach(e => { connectedNodes.add(e.from); connectedNodes.add(e.to); });
+
+            // Build the complete node dataset with visibility and labels
+            const nodeData = allNodes.map(node => {
+                const isGeneral = node._taxon === 'Recurs_General';
+                const isClusterTaxon = node._taxon === 'Cluster_Vertebrat' || node._taxon === 'Cluster_Planta' || node._taxon === 'Cluster_Invertebrat';
+                // Hide a node if: general resources hidden AND node is general,
+                // OR clusters hidden AND node is a cluster taxon AND it has no other connections
+                const hidden = (!showGeneral && isGeneral) || (!showClusters && isClusterTaxon && !connectedNodes.has(node.id));
+                return {
+                    id: node.id,
+                    label: (showLabels && !hidden) ? (node.label || node.id) : '',
+                    hidden: hidden
+                };
+            });
+
+            // Rebuild edge dataset
+            const edgeData = filteredEdges.map(edge => ({
+                id: `${edge.from}-${edge.to}-${edge.type}`,
+                from: edge.from,
+                to: edge.to,
+                label: (!edge._isCluster && showEdgeLabels) ? edge.label : '',
+                title: edge.title,
+                color: edge.color,
+                width: edge.width,
+                dashes: edge.dashes,
+                arrows: edge.arrows,
+                font: edge.font
+            }));
+
+            // Use setData to atomically replace everything (avoids edge disappearance bug)
+            network.setData({
+                nodes: new vis.DataSet(nodeData),
+                edges: new vis.DataSet(edgeData)
+            });
+            setTimeout(() => { if (network) network.fit({ animation: true }); }, 100);
+
+            // Update stats
+            document.getElementById('edge-count').textContent = filteredEdges.length;
+            document.getElementById('node-count').textContent = nodeData.filter(n => !n.hidden).length;
+            document.getElementById('herbivore-count').textContent = 'N/A';
+            document.getElementById('carnivore-count').textContent = 'N/A';
+            document.getElementById('omnivore-count').textContent = 'N/A';
+        }
+
+        function fitToScreen() {
+            if (network) network.fit({ animation: true });
+        }
+
+        function downloadPNG() {
+            if (!network) return;
+            const canvas = document.querySelector('#network-container canvas');
+            if (!canvas) return;
+            const link = document.createElement('a');
+            link.download = 'xarxa_trofica_alt_pirineu.png';
+            link.href = canvas.toDataURL('image/png');
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', loadAndDisplayGraph);
+
+        document.getElementById('load-graph-btn').addEventListener('click', () => {
+            const fi = document.getElementById('graph-file-input');
+            if (fi.files.length > 0) {
+                loadGraphFromFile(fi.files[0]);
+            } else {
+                const el = document.getElementById('file-status');
+                el.textContent = 'Selecciona un arxiu primer';
+                el.style.color = '#e67e22';
+            }
+        });
+
+        const container = document.getElementById('network-container');
+        container.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            container.style.borderColor = '#3498db';
+            container.style.backgroundColor = '#ebf5fb';
+        });
+        container.addEventListener('dragleave', () => {
+            container.style.borderColor = '#ddd';
+            container.style.backgroundColor = 'white';
+        });
+        container.addEventListener('drop', (e) => {
+            e.preventDefault();
+            container.style.borderColor = '#ddd';
+            container.style.backgroundColor = 'white';
+            if (e.dataTransfer.files.length > 0) loadGraphFromFile(e.dataTransfer.files[0]);
+        });
+
+        document.getElementById('graph-file-input').addEventListener('change', () => {
+            const fi = document.getElementById('graph-file-input');
+            if (fi.files.length > 0) {
+                const el = document.getElementById('file-status');
+                el.textContent = fi.files[0].name;
+                el.style.color = '#7f8c8d';
+            }
+        });
+
+        document.getElementById('refresh-btn').addEventListener('click', () => {
+            loadAndDisplayGraph().then(() => setTimeout(applyFilters, 200));
+        });
+
+        document.getElementById('fit-screen-btn').addEventListener('click', fitToScreen);
+        document.getElementById('download-png-btn').addEventListener('click', downloadPNG);
+
+        document.getElementById('physics-toggle').addEventListener('change', applyFilters);
+        document.getElementById('interaction-filter').addEventListener('change', applyFilters);
+        document.getElementById('labels-toggle').addEventListener('change', applyFilters);
+        document.getElementById('edge-labels-toggle').addEventListener('change', applyFilters);
+        document.getElementById('cluster-toggle').addEventListener('change', applyFilters);
+        document.getElementById('general-toggle').addEventListener('change', applyFilters);
+
+        window.addEventListener('resize', () => { if (network) network.fit(); });
+    </script>
+</body>
+</html>

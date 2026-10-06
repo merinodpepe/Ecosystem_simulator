@@ -1,0 +1,221 @@
+consumer_taxon	consumer_scientific_name	resource_taxon	resource_scientific_name	interaction_type	confidence	notes
+Mammalia	Ursus arctos arctos	Mammalia	Rupicapra pyrenaica pyrenaica	predation	medium	Preda cries o individuals debilitats d'isard
+Mammalia	Ursus arctos arctos	Mammalia	Cervus elaphus	predation	medium	Preda cries o individuals debilitats de cérvol
+Mammalia	Ursus arctos arctos	Mammalia	Capreolus capreolus	predation	low	Preda ocasionalment individus debilitats de cabirol
+Mammalia	Ursus arctos arctos	Mammalia	Sus scrofa	predation	low	Pot ser atacat per l'ós (adults més proteguts)
+Mammalia	Ursus arctos arctos	Aves	Tetrao urogallus (subsp. pirenaica)	predation	low	Consumeix aus i ous ocasionalment
+Mammalia	Ursus arctos arctos	Actinopterygii	Salmo trutta	predation	medium	Pesca truites o altres peixos quan accessibles
+Mammalia	Ursus arctos arctos	Plantae	Vaccinium myrtillus	herbivory	high	Menja nabius (fruits carnosos)
+Mammalia	Ursus arctos arctos	Plantae	Fagus sylvatica	frugivory	high	Menja fages (fruits forestals)
+Mammalia	Ursus arctos arctos	Plantae	Quercus spp.	frugivory	high	Menja glans (bellotes)
+Mammalia	Ursus arctos arctos	Insecta	Formicidae	entomophagy	high	Consumeix formigues (sobretot en primavera)
+Mammalia	Rupicapra pyrenaica pyrenaica	Planta	P3	herbivory	high	Gramínies i herbes dicotiledònies dels prats alpins i subalpins
+Mammalia	Cervus elaphus	Planta	P3	herbivory	high	Gramínies, herbes i brots d'arbusts i arbres; prats d'alta muntanya i clarianes forestals
+Mammalia	Capreolus capreolus	Planta	P3	herbivory	high	Brots tendres, fulles i herbes de clarianes, prats i sotabosc
+Mammalia	Sus scrofa	Planta	P3	herbivory	high	Arrels, tubercles i fruits forestals (fages, glans)
+Mammalia	Ursus arctos arctos	Plantae	Various	herbivory	high	Menja herbes, brots, fruits carnosos i secs
+Mammalia	Lutra lutra	Actinopterygii	Salmo trutta	predation	high	Consumeix principalment truita de riu
+Mammalia	Lutra lutra	Actinopterygii	Phoxinus spp.	predation	medium	Consumeix altres ciprínids (madrilla, veró)
+Mammalia	Lutra lutra	Amphibia	Calotriton asper	predation	medium	Consumeix tritó pirinenc i altres amfibis
+Mammalia	Lutra lutra	Crustacea	Various	predation	medium	Consumeix crancs de riu
+Mammalia	Lutra lutra	Mammalia	Various	predation	low	Consumeix petits mamífers aquàtics (almesquera)
+Mammalia	Galemys pyrenaicus	Insecta	Various	entomophagy	high	S'alimenta sobretot d'invertebrats aquàtics (larves d'insectes)
+Mammalia	Galemys pyrenaicus	Crustacea	Various	entomophagy	medium	Ocasionalment de petits crustacis
+Mammalia	Martes martes	Mammalia	Various	predation	high	Petits mamífers (micromamífers, esquirols)
+Mammalia	Martes martes	Aves	Tetrao urogallus (subsp. pirenaica)	predation	high	Principal depredador dels nius i polls de gall fer
+Mammalia	Martes martes	Aves	Various	predation	medium	Aus i seus ous
+Mammalia	Martes martes	Amphibia	Various	predation	medium	Amfibis
+Mammalia	Martes martes	Insecta	Various	entomophagy	medium	Invertebrats
+Mammalia	Martes martes	Planta	P1	frugivory	low	Fruits (oportunista)
+Mammalia	Vulpes vulpes	Mammalia	Various	predation	high	Micromamífers
+Mammalia	Vulpes vulpes	Aves	Various	predation	medium	Aus
+Mammalia	Vulpes vulpes	Insecta	Various	entomophagy	high	Invertebrats
+Mammalia	Vulpes vulpes	Planta	P1	frugivory	medium	Fruits
+Mammalia	Vulpes vulpes	Mammalia	Various	scavenging	medium	Carronya
+Mammalia	Felis silvestris	Mammalia	Various	predation	high	Micromamífers
+Mammalia	Felis silvestris	Aves	Various	predation	medium	Aus i ous
+Mammalia	Felis silvestris	Insecta	Various	entomophagy	high	Invertebrats
+Mammalia	Felis silvestris	Planta	P1	frugivory	low	Fruits (oportunista)
+Mammalia	Mustela nivalis	Mammalia	Various	predation	high	Micromamífers
+Mammalia	Mustela nivalis	Aves	Various	predation	medium	Aus
+Mammalia	Mustela nivalis	Insecta	Various	entomophagy	high	Invertebrats
+Mammalia	Mustela erminea	Mammalia	Various	predation	high	Micromamífers
+Mammalia	Mustela erminea	Aves	Various	predation	medium	Aus
+Mammalia	Mustela erminea	Insecta	Various	entomophagy	high	Invertebrats
+Aves	Tetrao urogallus (subsp. pirenaica)	Plantae	Pinus uncinata	herbivory	high	A l'hivern: sobretot d'acícules de pi negre
+Aves	Tetrao urogallus (subsp. pirenaica)	Plantae	Pinus sylvestris	herbivory	high	En menor mesura, d'avet blanc, ginebró i altres coníferes
+Aves	Tetrao urogallus (subsp. pirenaica)	Plantae	Vaccinium myrtillus	herbivory	high	A la primavera–estiu: brots i fruits de sotabosc com nabiu
+Aves	Tetrao urogallus (subsp. pirenaica)	Plantae	Arctostaphylos uva-ursi	herbivory	high	Broixerola
+Aves	Tetrao urogallus (subsp. pirenaica)	Plantae	Various	herbivory	medium	Neret i gramínies
+Aves	Tetrao urogallus (subsp. pirenaica)	Insecta	Various	entomophagy	high	Polls: larva de lepidòpters, formigues, coleòpters (proteïna d'alta qualitat)
+Aves	Lagopus muta	Planta	P3	herbivory	high	Vegetació alpina (brots, fulles, buds)
+Aves	Lagopus muta	Insecta	Various	entomophagy	medium	Invertebrats per als polls
+Aves	Gypaetus barbatus	Mammalia	Various	scavenging	high	S'alimenta principalment d'ossos d'ungulats (isard, cérvol, cabirol, ovelles, cabres)
+Aves	Gypaetus barbatus	Mammalia	Various	scavenging	high	Teixits rics en medul·la d'ungulats
+Aves	Gypaetus barbatus	Mammalia	Various	predation	low	Ocasionalment preses petites vives
+Aves	Aquila chrysaetos	Mammalia	Rupicapra pyrenaica pyrenaica	predation	high	Principalment isards joves
+Aves	Aquila chrysaetos	Mammalia	Capreolus capreolus	predation	high	Cabirols
+Aves	Aquila chrysaetos	Mammalia	Marmota marmota	predation	medium	Marmotes (on n'hi ha)
+Aves	Aquila chrysaetos	Mammalia	Oryctolagus cuniculus	predation	medium	Conills
+Aves	Aquila chrysaetos	Aves	Various	predation	medium	Aus (gallinàcies, corbs)
+Aves	Aquila chrysaetos	Mammalia	Various	scavenging	low	Ocasionalment carronya
+Reptilia	Iberolacerta aurelioi	Insecta	Formicidae	entomophagy	high	Preferència per formigues
+Reptilia	Iberolacerta aurelioi	Insecta	Coleoptera	entomophagy	high	Preferència per coleòpters
+Reptilia	Iberolacerta aurelioi	Insecta	Hemiptera	entomophagy	high	Preferència per heteròpters
+Reptilia	Iberolacerta aurelioi	Insecta	Diptera	entomophagy	high	Preferència per dípters
+Reptilia	Iberolacerta aurelioi	Insecta	Various	entomophagy	medium	Altres ordres d'artròpodes
+Reptilia	Iberolacerta aurelioi	Reptilia	Iberolacerta aurelioi	cannibalism	low	Ocasionalment canibalisme
+Amphibia	Calotriton asper	Mollusca	Various	entomophagy	high	Petits mol·luscos
+Amphibia	Calotriton asper	Crustacea	Various	entomophagy	high	Crustacis
+Amphibia	Calotriton asper	Insecta	Various	entomophagy	high	Larves d'insectes aquàtics (efemeròpters, plecòpters, tricòpters)
+Amphibia	Rana temporaria	Insecta	Various	entomophagy	high	Larves de mosquits, cucs i altres petits invertebrats
+Amphibia	Rana temporaria	Crustacea	Various	entomophagy	medium	Crustacis aquàtics
+Actinopterygii	Salmo trutta	Insecta	Ephemeroptera	entomophagy	high	Larves d'efemeròpters
+Actinopterygii	Salmo trutta	Insecta	Plecoptera	entomophagy	high	Larves de plecòpters
+Actinopterygii	Salmo trutta	Insecta	Trichoptera	entomophagy	high	Larves de tricòpters
+Actinopterygii	Salmo trutta	Crustacea	Various	entomophagy	high	Crustacis
+Actinopterygii	Salmo trutta	Actinopterygii	Various	predation	medium	Peixos petits
+Actinopterygii	Salmo trutta	Amphibia	Calotriton asper	predation	high	Tritó pirinenc
+Actinopterygii	Salmo trutta	Amphibia	Various	predation	medium	Amfibis (tritó, granotes)
+Actinopterygii	Salmo trutta	Amphibia	Various	predation	low	Capgrossos i granotes (ocasionalment)
+Actinopterygii	Phoxinus spp.	Insecta	Various	entomophagy	high	Peixos petits d'invertebrats
+Actinopterygii	Phoxinus spp.	Planta	P2	herbivory	medium	Algues
+Actinopterygii	Phoxinus spp.	Organic_parts	Various	detritivory	medium	Matèria orgànica
+Insecta	Boloria eunomia	Planta	Bistorta officinalis	herbivory	high	Erugues s'alimenten de fulles de Bistorta
+Insecta	Boloria eunomia	Planta	P1	nectarivory	high	Adults: nèctar de flors de bistorta i altres composites
+Insecta	Parnassius mnemosyne	Planta	Corydalis spp.	herbivory	high	Larves s'alimenten de diverses espècies de Corydalis
+Insecta	Parnassius mnemosyne	Planta	P1	nectarivory	high	Adults: nèctar de flors de prats (jaskres, trèvols, planta)
+Insecta	Bombus spp.	Planta	P1	nectarivory	high	Adults: nectarívors i pol·linívor de flors alpines/subalpines
+Insecta	Bombus spp.	Planta	P1	pollenivory	high	Adults: utilitzen pol·len de flors
+Insecta	Bombus spp.	Plantae	Various	trophallaxis	high	Larves: alimentades amb pol·len i néctar recollit per obreres
+Insecta	Thaumetopoea pityocampa	Planta	Pinus spp.	herbivory	high	Erugues fitòfagues de fulles de coníferes (Pinus spp.)
+Insecta	Thaumetopoea pityocampa	Plantae	Various	herbivory	low	Adults: no s'alimenten o s'alimenten poc de néctar
+Insecta	Hemiptera	Planta	Vaccinium myrtillus	herbivory	medium	Pugons de Vaccinium (saba)
+Insecta	Hemiptera	Planta	Nardus stricta	herbivory	medium	Pugons de Nardus (saba)
+Insecta	Hemiptera	Planta	Festuca spp.	herbivory	medium	Pugons de Festuca (saba)
+Insecta	Hemiptera	Plantae	Various	mutualism	medium	Secreten melassa utilitzada per formigues mutualistes
+Insecta	Orthoptera	Planta	Nardus stricta	herbivory	medium	Fitòfags de fulles de Nardus
+Insecta	Orthoptera	Planta	Festuca spp.	herbivory	medium	Fitòfags de fulles de Festuca
+Insecta	Orthoptera	Planta	P3	herbivory	medium	Herbàcies de prats
+Insecta	Formicidae	Insecta	Aphididae	mutualism	high	Consumeix melassa de pugons; protegeix pugons a canvi de melassa
+Insecta	Formicidae	Insecta	Various	entomophagy	high	Petits artròpodes
+Insecta	Formicidae	Mammalia	Various	scavenging	medium	Consumeix carronya
+Insecta	Formicidae	Planta	P3	granivory	medium	Consumeix llavors
+Insecta	Ichneumonidae_Braconidae	Insecta	Lepidoptera	parasitoidism	high	Parasiten larves de lepidòpters
+Insecta	Ichneumonidae_Braconidae	Insecta	Diptera	parasitoidism	medium	Parasiten larves de dípters
+Insecta	Ichneumonidae_Braconidae	Insecta	Various	parasitoidism	medium	Parasiten larves d'altres ordres
+Insecta	Araneae	Insecta	Various	entomophagy	high	Depredadors generalistes d'insectes (papallones petites, mosques, pugons, saltamartins juvenils)
+Insecta	Araneae	Insecta	Aphididae	entomophagy	high	Capturen pugons
+# Priority 1 species (Mufló, Daina, Marmota, Conill, Teixó, Esquirol)
+Mammalia	Ursus arctos arctos	Mammalia	Ovis aries musimon	predation	low	Preda cries ocasionalment de mufló
+Mammalia	Ursus arctos arctos	Mammalia	Dama dama	predation	low	Preda cries ocasionalment de daina
+Mammalia	Ursus arctos arctos	Mammalia	Marmota marmota	predation	low	Pot predar marmotes ocasionalment
+Mammalia	Ursus arctos arctos	Mammalia	Meles meles	predation	low	Pot atacar teixons ocasionalment
+Mammalia	Ursus arctos arctos	Mammalia	Sciurus vulgaris	predation	low	Preda esquirols ocasionalment
+Mammalia	Vulpes vulpes	Mammalia	Marmota marmota	predation	medium	Depredador important de marmotes juvenils
+Mammalia	Vulpes vulpes	Mammalia	Oryctolagus cuniculus	predation	high	Depredador important de conills
+Mammalia	Vulpes vulpes	Mammalia	Sciurus vulgaris	predation	medium	Depreda esquirols ocasionalment
+Mammalia	Martes martes	Mammalia	Oryctolagus cuniculus	predation	medium	Depreda conills joves
+Mammalia	Martes martes	Mammalia	Sciurus vulgaris	predation	high	Principal depredador d'esquirols
+Mammalia	Felis silvestris	Mammalia	Oryctolagus cuniculus	predation	high	Depredador important de conills
+Mammalia	Felis silvestris	Mammalia	Sciurus vulgaris	predation	medium	Depreda esquirols
+Mammalia	Mustela nivalis	Mammalia	Oryctolagus cuniculus	predation	low	Depreda conills joves o nadons
+Mammalia	Mustela erminea	Mammalia	Oryctolagus cuniculus	predation	low	Depreda conills joves o nadons
+Mammalia	Aquila chrysaetos	Mammalia	Ovis aries musimon	predation	low	Preda cries o exemplars joves de mufló
+Mammalia	Aquila chrysaetos	Mammalia	Dama dama	predation	low	Preda cries de daina
+Mammalia	Aquila chrysaetos	Mammalia	Sciurus vulgaris	predation	medium	Captura esquirols
+Mammalia	Ovis aries musimon	Planta	P3	herbivory	high	Herbívora de gramínies i herbes de prat
+Mammalia	Dama dama	Planta	P3	herbivory	high	Herbívora de vegetació herbàcia i fulles
+Mammalia	Marmota marmota	Planta	P3	herbivory	high	Herbívora de dicotiledònies i herbes alpines
+Mammalia	Oryctolagus cuniculus	Planta	P3	herbivory	high	Herbívora de gramínies i herba fresca
+Mammalia	Meles meles	Insecta	Various	entomophagy	high	Consumeix insectes (coleòpters) i larves
+Mammalia	Meles meles	Planta	P1	frugivory	medium	Consumeix fruits, arrels i tubercles
+Mammalia	Meles meles	Mammalia	Oryctolagus cuniculus	predation	medium	Depreda conills joves (catxaps)
+Mammalia	Sciurus vulgaris	Planta	P3	granivory	high	Granívora de pinyons, fruits secs i llavors
+Mammalia	Sciurus vulgaris	Plantae	Pinus uncinata	granivory	high	Consumeix pinyons de pi negre
+Mammalia	Sciurus vulgaris	Insecta	Various	entomophagy	low	Ocasionalment larves d'insectes i cargols
+# Priority 2 — Clústers funcionals de vertebrats
+# V-Passeriformes (Passeriformes insectívors)
+Cluster_Vertebrat	V-Passeriformes	Insecta	Various	entomophagy	high	Consumeix insectes, larves, aranyes i cucs
+Cluster_Vertebrat	V-Passeriformes	Planta	P1	frugivory	medium	Consumeix fruits i llavors (estacional)
+# V-Ratpenats (Quiròpters insectívors)
+Cluster_Vertebrat	V-Ratpenats	Insecta	Various	entomophagy	high	Consumeix arnes, mosquits, coleòpters (ecolocalització)
+# V-RapinyairesNocturnesGrans (Bubo bubo, Strix aluco)
+Cluster_Vertebrat	V-RapinyairesNocturnesGrans	Cluster_Vertebrat	V-MicromamífersPetits	predation	high	Depredador principal de micromamífers
+Cluster_Vertebrat	V-RapinyairesNocturnesGrans	Cluster_Vertebrat	V-Passeriformes	predation	high	Depreda ocells passeriformes
+Cluster_Vertebrat	V-RapinyairesNocturnesGrans	Cluster_Vertebrat	V-RapinyairesNocturnesPetites	predation	medium	Depreda rapinyaires nocturnes petites
+Cluster_Vertebrat	V-RapinyairesNocturnesGrans	Mammalia	Oryctolagus cuniculus	predation	medium	Depreda conills joves
+Cluster_Vertebrat	V-RapinyairesNocturnesGrans	Cluster_Vertebrat	V-InsectívorsMitjans	predation	medium	Depreda eriçons
+# V-RapinyairesNocturnesPetites (Tyto alba, Aegolius funereus, Otus scops, Asio otus, Athene noctua)
+Cluster_Vertebrat	V-RapinyairesNocturnesPetites	Cluster_Vertebrat	V-MicromamífersPetits	predation	high	Depreda micromamífers petits (musaranyes, ratolins)
+Cluster_Vertebrat	V-RapinyairesNocturnesPetites	Insecta	Various	entomophagy	high	Consumeix ortòpters, coleòpters, lepidòpters
+# V-MicromamífersPetits (Apodemus, Microtus, Myodes, Sorex, Crocidura)
+Cluster_Vertebrat	V-MicromamífersPetits	Planta	P3	herbivory	high	Granívora de llavors, fruits, herba
+Cluster_Vertebrat	V-MicromamífersPetits	Insecta	Various	entomophagy	low	Consumeix invertebrats ocasionalment
+# V-InsectívorsMitjans (Talpa europaea, Erinaceus europaeus)
+Cluster_Vertebrat	V-InsectívorsMitjans	Insecta	Various	entomophagy	high	Consumeix cucs de terra, insectes, larves, cargols
+Cluster_Vertebrat	V-InsectívorsMitjans	Planta	P1	frugivory	low	Consumeix fruits, arrels i tubercles
+# Depredadors dels clústers funcionals (depredació per espècies existents)
+Mammalia	Ursus arctos arctos	Cluster_Vertebrat	V-Passeriformes	predation	low	Consumeix ous i polls de passeriformes ocasionalment
+Mammalia	Martes martes	Cluster_Vertebrat	V-Passeriformes	predation	high	Depredador important de passeriformes i nius
+Mammalia	Martes martes	Cluster_Vertebrat	V-Ratpenats	predation	medium	Depreda ratpenats als refugis
+Mammalia	Martes martes	Cluster_Vertebrat	V-RapinyairesNocturnesPetites	predation	medium	Depreda polls i adults de rapinyaires petites
+Mammalia	Martes martes	Cluster_Vertebrat	V-MicromamífersPetits	predation	high	Depredador important de micromamífers
+Mammalia	Martes martes	Cluster_Vertebrat	V-InsectívorsMitjans	predation	low	Depreda eriçons joves ocasionalment
+Mammalia	Vulpes vulpes	Cluster_Vertebrat	V-Passeriformes	predation	medium	Depreda passeriformes i nius
+Mammalia	Vulpes vulpes	Cluster_Vertebrat	V-MicromamífersPetits	predation	high	Depredador important de micromamífers
+Mammalia	Vulpes vulpes	Cluster_Vertebrat	V-InsectívorsMitjans	predation	high	Depreda eriçons i talps
+Mammalia	Vulpes vulpes	Cluster_Vertebrat	V-RapinyairesNocturnesPetites	predation	medium	Depreda rapinyaires nocturnes petites
+Mammalia	Vulpes vulpes	Cluster_Vertebrat	V-Ratpenats	predation	low	Depreda ratpenats ocasionalment
+Mammalia	Felis silvestris	Cluster_Vertebrat	V-Passeriformes	predation	high	Depredador important de passeriformes
+Mammalia	Felis silvestris	Cluster_Vertebrat	V-MicromamífersPetits	predation	high	Depredador important de micromamífers
+Mammalia	Felis silvestris	Cluster_Vertebrat	V-InsectívorsMitjans	predation	medium	Depreda eriçons i talps
+Mammalia	Felis silvestris	Cluster_Vertebrat	V-Ratpenats	predation	medium	Depreda ratpenats
+Mammalia	Mustela nivalis	Cluster_Vertebrat	V-MicromamífersPetits	predation	high	Depredador principal de micromamífers
+Mammalia	Mustela nivalis	Cluster_Vertebrat	V-Passeriformes	predation	medium	Depreda passeriformes
+Mammalia	Mustela erminea	Cluster_Vertebrat	V-MicromamífersPetits	predation	high	Depredador principal de micromamífers
+Mammalia	Mustela erminea	Cluster_Vertebrat	V-Passeriformes	predation	medium	Depreda passeriformes
+Aves	Aquila chrysaetos	Cluster_Vertebrat	V-Passeriformes	predation	medium	Captura passeriformes
+Aves	Aquila chrysaetos	Cluster_Vertebrat	V-MicromamífersPetits	predation	high	Depreda micromamífers
+Aves	Aquila chrysaetos	Cluster_Vertebrat	V-InsectívorsMitjans	predation	medium	Depreda eriçons i talps
+Mammalia	Meles meles	Cluster_Vertebrat	V-InsectívorsMitjans	predation	medium	Depreda eriçons
+Mammalia	Meles meles	Cluster_Vertebrat	V-MicromamífersPetits	predation	medium	Depreda micromamífers
+Mammalia	Meles meles	Cluster_Vertebrat	V-Passeriformes	predation	low	Depreda nius de passeriformes ocasionalment
+# Priority 3 species (Bufo bufo, Salamandra salamandra, Corvus corax, Podarcis muralis, Zootoca vivipara)
+# Bufo bufo (Gripau comú) — diet
+Amphibia	Bufo bufo	Insecta	Various	entomophagy	high	Invertebrats terrestres (coleòpters, formigues, aranyes, cucs, llimacs, larves)
+# Salamandra salamandra (Salamandra) — diet
+Amphibia	Salamandra salamandra	Insecta	Various	entomophagy	high	Cucs de terra, llimacs, aranyes, insectes (coleòpters, dípters), miriàpodes
+# Corvus corax (Corb) — diet (omnívor oportunista)
+Aves	Corvus corax	Mammalia	Various	predation	medium	Depreda petits mamífers (conills joves, micromamífers)
+Aves	Corvus corax	Aves	Various	predation	medium	Depreda aus i ous de nius
+Aves	Corvus corax	Insecta	Various	entomophagy	medium	Consumeix insectes oportunísticament
+Aves	Corvus corax	Planta	P1	frugivory	medium	Consumeix fruits i llavors
+Aves	Corvus corax	Mammalia	Various	scavenging	high	Carronya (font important d'aliment)
+Aves	Corvus corax	Cluster_Vertebrat	V-MicromamífersPetits	predation	medium	Depreda micromamífers petits
+Aves	Corvus corax	Cluster_Vertebrat	V-Passeriformes	predation	medium	Depreda passeriformes i nius
+Aves	Corvus corax	Cluster_Vertebrat	V-InsectívorsMitjans	predation	low	Depreda eriçons i talps joves
+# Podarcis muralis (Sargantana roquera) — diet
+Reptilia	Podarcis muralis	Insecta	Various	entomophagy	high	Petits artròpodes (formigues, coleòpters, aranyes, dípters)
+# Zootoca vivipara (Sargantana vivípara) — diet
+Reptilia	Zootoca vivipara	Insecta	Various	entomophagy	high	Petits artròpodes (formigues, coleòpters, aranyes, dípters)
+# Predadors específics de Corvus corax
+Aves	Aquila chrysaetos	Aves	Corvus corax	predation	medium	Àguila reial depreda polls i joves de corb
+Mammalia	Martes martes	Aves	Corvus corax	predation	medium	Marta depreda polls i ous de corb
+Cluster_Vertebrat	V-RapinyairesNocturnesGrans	Aves	Corvus corax	predation	medium	Duc pot depredar polls de corb
+# Predadors específics de Bufo bufo
+Mammalia	Martes martes	Amphibia	Bufo bufo	predation	medium	Marta depreda gripau comú
+Mammalia	Meles meles	Amphibia	Bufo bufo	predation	medium	Teixó depreda gripau comú
+Mammalia	Vulpes vulpes	Amphibia	Bufo bufo	predation	medium	Guineu depreda gripau comú
+Aves	Corvus corax	Amphibia	Bufo bufo	predation	medium	Corb depreda gripau comú
+# Predadors específics de Salamandra salamandra
+Mammalia	Martes martes	Amphibia	Salamandra salamandra	predation	medium	Marta depreda salamandra
+Mammalia	Meles meles	Amphibia	Salamandra salamandra	predation	medium	Teixó depreda salamandra
+Aves	Corvus corax	Amphibia	Salamandra salamandra	predation	medium	Corb depreda salamandra
+# Predadors específics de Podarcis muralis i Zootoca vivipara
+Mammalia	Martes martes	Reptilia	Podarcis muralis	predation	medium	Marta depreda sargantanes
+Mammalia	Martes martes	Reptilia	Zootoca vivipara	predation	medium	Marta depreda sargantanes
+Mammalia	Mustela nivalis	Reptilia	Podarcis muralis	predation	medium	Mostela depreda sargantanes
+Mammalia	Mustela nivalis	Reptilia	Zootoca vivipara	predation	medium	Mostela depreda sargantanes
+Aves	Corvus corax	Reptilia	Podarcis muralis	predation	low	Corb depreda sargantanes
+Aves	Corvus corax	Reptilia	Zootoca vivipara	predation	low	Corb depreda sargantanes

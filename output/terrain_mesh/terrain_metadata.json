@@ -1,0 +1,10 @@
+{
+  "grid": "188x251",
+  "step": 2,
+  "scale": 0.03,
+  "vertices": 45001,
+  "triangles": 89126,
+  "elevation_min": 979.5,
+  "elevation_max": 2714.8,
+  "elevation_mean": 1772.135352547721
+}

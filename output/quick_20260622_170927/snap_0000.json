@@ -1,0 +1,3254 @@
+{
+  "day": 0,
+  "agents": [
+    {
+      "id": 0,
+      "species": "Rupicapra_pyrenaica",
+      "x": 6,
+      "y": 59,
+      "alive": true,
+      "energy_kcal": 173742.9,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 1,
+      "species": "Rupicapra_pyrenaica",
+      "x": 25,
+      "y": 56,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 2,
+      "species": "Rupicapra_pyrenaica",
+      "x": 57,
+      "y": 51,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 3,
+      "species": "Rupicapra_pyrenaica",
+      "x": 47,
+      "y": 45,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 4,
+      "species": "Rupicapra_pyrenaica",
+      "x": 21,
+      "y": 79,
+      "alive": true,
+      "energy_kcal": 174329.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 5,
+      "species": "Rupicapra_pyrenaica",
+      "x": 18,
+      "y": 14,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 6,
+      "species": "Rupicapra_pyrenaica",
+      "x": 83,
+      "y": 96,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 7,
+      "species": "Rupicapra_pyrenaica",
+      "x": 90,
+      "y": 45,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 8,
+      "species": "Rupicapra_pyrenaica",
+      "x": 95,
+      "y": 33,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 9,
+      "species": "Rupicapra_pyrenaica",
+      "x": 60,
+      "y": 74,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 10,
+      "species": "Rupicapra_pyrenaica",
+      "x": 85,
+      "y": 91,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 11,
+      "species": "Rupicapra_pyrenaica",
+      "x": 74,
+      "y": 12,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 12,
+      "species": "Rupicapra_pyrenaica",
+      "x": 23,
+      "y": 8,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 13,
+      "species": "Rupicapra_pyrenaica",
+      "x": 79,
+      "y": 24,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 14,
+      "species": "Rupicapra_pyrenaica",
+      "x": 11,
+      "y": 60,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 15,
+      "species": "Rupicapra_pyrenaica",
+      "x": 26,
+      "y": 86,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 16,
+      "species": "Rupicapra_pyrenaica",
+      "x": 71,
+      "y": 91,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 17,
+      "species": "Rupicapra_pyrenaica",
+      "x": 76,
+      "y": 61,
+      "alive": true,
+      "energy_kcal": 174024.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 18,
+      "species": "Rupicapra_pyrenaica",
+      "x": 5,
+      "y": 45,
+      "alive": true,
+      "energy_kcal": 174371.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 19,
+      "species": "Rupicapra_pyrenaica",
+      "x": 15,
+      "y": 21,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 20,
+      "species": "Rupicapra_pyrenaica",
+      "x": 35,
+      "y": 86,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 21,
+      "species": "Rupicapra_pyrenaica",
+      "x": 37,
+      "y": 93,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 22,
+      "species": "Rupicapra_pyrenaica",
+      "x": 95,
+      "y": 55,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 23,
+      "species": "Rupicapra_pyrenaica",
+      "x": 51,
+      "y": 38,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 24,
+      "species": "Rupicapra_pyrenaica",
+      "x": 21,
+      "y": 30,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 25,
+      "species": "Rupicapra_pyrenaica",
+      "x": 23,
+      "y": 21,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 26,
+      "species": "Rupicapra_pyrenaica",
+      "x": 13,
+      "y": 20,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 27,
+      "species": "Rupicapra_pyrenaica",
+      "x": 74,
+      "y": 27,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 28,
+      "species": "Rupicapra_pyrenaica",
+      "x": 0,
+      "y": 57,
+      "alive": true,
+      "energy_kcal": 174371.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 29,
+      "species": "Rupicapra_pyrenaica",
+      "x": 88,
+      "y": 65,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 30,
+      "species": "Rupicapra_pyrenaica",
+      "x": 51,
+      "y": 96,
+      "alive": true,
+      "energy_kcal": 174001.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 31,
+      "species": "Rupicapra_pyrenaica",
+      "x": 2,
+      "y": 71,
+      "alive": true,
+      "energy_kcal": 174371.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 32,
+      "species": "Rupicapra_pyrenaica",
+      "x": 81,
+      "y": 46,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 33,
+      "species": "Rupicapra_pyrenaica",
+      "x": 93,
+      "y": 11,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 34,
+      "species": "Rupicapra_pyrenaica",
+      "x": 42,
+      "y": 7,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 35,
+      "species": "Rupicapra_pyrenaica",
+      "x": 59,
+      "y": 59,
+      "alive": true,
+      "energy_kcal": 173527.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 36,
+      "species": "Rupicapra_pyrenaica",
+      "x": 65,
+      "y": 10,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 37,
+      "species": "Rupicapra_pyrenaica",
+      "x": 21,
+      "y": 36,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 38,
+      "species": "Rupicapra_pyrenaica",
+      "x": 42,
+      "y": 12,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 39,
+      "species": "Rupicapra_pyrenaica",
+      "x": 86,
+      "y": 92,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 40,
+      "species": "Rupicapra_pyrenaica",
+      "x": 86,
+      "y": 94,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 41,
+      "species": "Rupicapra_pyrenaica",
+      "x": 68,
+      "y": 97,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 42,
+      "species": "Rupicapra_pyrenaica",
+      "x": 33,
+      "y": 89,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 43,
+      "species": "Rupicapra_pyrenaica",
+      "x": 31,
+      "y": 97,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 44,
+      "species": "Rupicapra_pyrenaica",
+      "x": 93,
+      "y": 31,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 45,
+      "species": "Rupicapra_pyrenaica",
+      "x": 72,
+      "y": 88,
+      "alive": true,
+      "energy_kcal": 173408.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 46,
+      "species": "Rupicapra_pyrenaica",
+      "x": 93,
+      "y": 53,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 47,
+      "species": "Rupicapra_pyrenaica",
+      "x": 79,
+      "y": 45,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 48,
+      "species": "Rupicapra_pyrenaica",
+      "x": 49,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 174306.9,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 49,
+      "species": "Rupicapra_pyrenaica",
+      "x": 21,
+      "y": 97,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 50,
+      "species": "Rupicapra_pyrenaica",
+      "x": 7,
+      "y": 90,
+      "alive": true,
+      "energy_kcal": 174371.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 51,
+      "species": "Rupicapra_pyrenaica",
+      "x": 31,
+      "y": 81,
+      "alive": true,
+      "energy_kcal": 173958.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 52,
+      "species": "Rupicapra_pyrenaica",
+      "x": 84,
+      "y": 45,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 53,
+      "species": "Rupicapra_pyrenaica",
+      "x": 59,
+      "y": 23,
+      "alive": true,
+      "energy_kcal": 173398.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 54,
+      "species": "Rupicapra_pyrenaica",
+      "x": 95,
+      "y": 95,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 55,
+      "species": "Rupicapra_pyrenaica",
+      "x": 9,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 174371.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 56,
+      "species": "Rupicapra_pyrenaica",
+      "x": 30,
+      "y": 8,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 57,
+      "species": "Rupicapra_pyrenaica",
+      "x": 15,
+      "y": 38,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 58,
+      "species": "Rupicapra_pyrenaica",
+      "x": 24,
+      "y": 72,
+      "alive": true,
+      "energy_kcal": 173651.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 59,
+      "species": "Rupicapra_pyrenaica",
+      "x": 40,
+      "y": 71,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 60,
+      "species": "Rupicapra_pyrenaica",
+      "x": 35,
+      "y": 32,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 61,
+      "species": "Rupicapra_pyrenaica",
+      "x": 36,
+      "y": 48,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 62,
+      "species": "Rupicapra_pyrenaica",
+      "x": 65,
+      "y": 47,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 63,
+      "species": "Rupicapra_pyrenaica",
+      "x": 82,
+      "y": 79,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 64,
+      "species": "Rupicapra_pyrenaica",
+      "x": 34,
+      "y": 69,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 65,
+      "species": "Rupicapra_pyrenaica",
+      "x": 90,
+      "y": 65,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 66,
+      "species": "Rupicapra_pyrenaica",
+      "x": 96,
+      "y": 33,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 67,
+      "species": "Rupicapra_pyrenaica",
+      "x": 96,
+      "y": 91,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 68,
+      "species": "Rupicapra_pyrenaica",
+      "x": 60,
+      "y": 88,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 69,
+      "species": "Rupicapra_pyrenaica",
+      "x": 8,
+      "y": 77,
+      "alive": true,
+      "energy_kcal": 173741.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 70,
+      "species": "Rupicapra_pyrenaica",
+      "x": 33,
+      "y": 85,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 71,
+      "species": "Rupicapra_pyrenaica",
+      "x": 77,
+      "y": 92,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 72,
+      "species": "Rupicapra_pyrenaica",
+      "x": 7,
+      "y": 93,
+      "alive": true,
+      "energy_kcal": 174371.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 73,
+      "species": "Rupicapra_pyrenaica",
+      "x": 47,
+      "y": 8,
+      "alive": true,
+      "energy_kcal": 174077.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 74,
+      "species": "Rupicapra_pyrenaica",
+      "x": 38,
+      "y": 10,
+      "alive": true,
+      "energy_kcal": 174161.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 75,
+      "species": "Cervus_elaphus",
+      "x": 75,
+      "y": 33,
+      "alive": true,
+      "energy_kcal": 995963.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 76,
+      "species": "Cervus_elaphus",
+      "x": 71,
+      "y": 53,
+      "alive": true,
+      "energy_kcal": 994993.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 77,
+      "species": "Cervus_elaphus",
+      "x": 39,
+      "y": 96,
+      "alive": true,
+      "energy_kcal": 994730.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 78,
+      "species": "Cervus_elaphus",
+      "x": 6,
+      "y": 70,
+      "alive": true,
+      "energy_kcal": 995615.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 79,
+      "species": "Cervus_elaphus",
+      "x": 28,
+      "y": 85,
+      "alive": true,
+      "energy_kcal": 996169.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 80,
+      "species": "Cervus_elaphus",
+      "x": 5,
+      "y": 28,
+      "alive": true,
+      "energy_kcal": 996177.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 81,
+      "species": "Cervus_elaphus",
+      "x": 70,
+      "y": 31,
+      "alive": true,
+      "energy_kcal": 995536.9,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 82,
+      "species": "Cervus_elaphus",
+      "x": 71,
+      "y": 70,
+      "alive": true,
+      "energy_kcal": 995332.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 83,
+      "species": "Cervus_elaphus",
+      "x": 39,
+      "y": 31,
+      "alive": true,
+      "energy_kcal": 994236.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 84,
+      "species": "Cervus_elaphus",
+      "x": 20,
+      "y": 64,
+      "alive": true,
+      "energy_kcal": 994000.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 85,
+      "species": "Cervus_elaphus",
+      "x": 44,
+      "y": 52,
+      "alive": true,
+      "energy_kcal": 993948.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 86,
+      "species": "Cervus_elaphus",
+      "x": 96,
+      "y": 17,
+      "alive": true,
+      "energy_kcal": 996992.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 87,
+      "species": "Cervus_elaphus",
+      "x": 50,
+      "y": 17,
+      "alive": true,
+      "energy_kcal": 994577.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 88,
+      "species": "Cervus_elaphus",
+      "x": 37,
+      "y": 26,
+      "alive": true,
+      "energy_kcal": 994315.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 89,
+      "species": "Cervus_elaphus",
+      "x": 76,
+      "y": 56,
+      "alive": true,
+      "energy_kcal": 994489.7,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 90,
+      "species": "Cervus_elaphus",
+      "x": 97,
+      "y": 31,
+      "alive": true,
+      "energy_kcal": 994251.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 91,
+      "species": "Cervus_elaphus",
+      "x": 56,
+      "y": 48,
+      "alive": true,
+      "energy_kcal": 996973.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 92,
+      "species": "Cervus_elaphus",
+      "x": 55,
+      "y": 19,
+      "alive": true,
+      "energy_kcal": 994399.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 93,
+      "species": "Cervus_elaphus",
+      "x": 29,
+      "y": 85,
+      "alive": true,
+      "energy_kcal": 996262.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 94,
+      "species": "Cervus_elaphus",
+      "x": 82,
+      "y": 27,
+      "alive": true,
+      "energy_kcal": 996130.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 95,
+      "species": "Cervus_elaphus",
+      "x": 59,
+      "y": 97,
+      "alive": true,
+      "energy_kcal": 994596.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 96,
+      "species": "Capreolus_capreolus",
+      "x": 24,
+      "y": 43,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 97,
+      "species": "Capreolus_capreolus",
+      "x": 83,
+      "y": 11,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 98,
+      "species": "Capreolus_capreolus",
+      "x": 88,
+      "y": 4,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 99,
+      "species": "Capreolus_capreolus",
+      "x": 92,
+      "y": 48,
+      "alive": true,
+      "energy_kcal": 99376.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 100,
+      "species": "Capreolus_capreolus",
+      "x": 26,
+      "y": 48,
+      "alive": true,
+      "energy_kcal": 99376.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 101,
+      "species": "Capreolus_capreolus",
+      "x": 84,
+      "y": 65,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 102,
+      "species": "Capreolus_capreolus",
+      "x": 12,
+      "y": 81,
+      "alive": true,
+      "energy_kcal": 99376.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 103,
+      "species": "Capreolus_capreolus",
+      "x": 71,
+      "y": 98,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 104,
+      "species": "Capreolus_capreolus",
+      "x": 25,
+      "y": 29,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 105,
+      "species": "Capreolus_capreolus",
+      "x": 53,
+      "y": 9,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 106,
+      "species": "Capreolus_capreolus",
+      "x": 17,
+      "y": 31,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 107,
+      "species": "Capreolus_capreolus",
+      "x": 68,
+      "y": 11,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 108,
+      "species": "Capreolus_capreolus",
+      "x": 0,
+      "y": 88,
+      "alive": true,
+      "energy_kcal": 99514.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 109,
+      "species": "Capreolus_capreolus",
+      "x": 80,
+      "y": 56,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 110,
+      "species": "Capreolus_capreolus",
+      "x": 72,
+      "y": 21,
+      "alive": true,
+      "energy_kcal": 99376.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 111,
+      "species": "Capreolus_capreolus",
+      "x": 45,
+      "y": 15,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 112,
+      "species": "Capreolus_capreolus",
+      "x": 74,
+      "y": 84,
+      "alive": true,
+      "energy_kcal": 99376.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 113,
+      "species": "Capreolus_capreolus",
+      "x": 76,
+      "y": 31,
+      "alive": true,
+      "energy_kcal": 99514.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 114,
+      "species": "Capreolus_capreolus",
+      "x": 37,
+      "y": 12,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 115,
+      "species": "Capreolus_capreolus",
+      "x": 50,
+      "y": 45,
+      "alive": true,
+      "energy_kcal": 99079.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 116,
+      "species": "Capreolus_capreolus",
+      "x": 84,
+      "y": 31,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 117,
+      "species": "Capreolus_capreolus",
+      "x": 34,
+      "y": 70,
+      "alive": true,
+      "energy_kcal": 99376.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 118,
+      "species": "Capreolus_capreolus",
+      "x": 93,
+      "y": 70,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 119,
+      "species": "Capreolus_capreolus",
+      "x": 93,
+      "y": 44,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 120,
+      "species": "Capreolus_capreolus",
+      "x": 42,
+      "y": 25,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 121,
+      "species": "Capreolus_capreolus",
+      "x": 98,
+      "y": 65,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 122,
+      "species": "Capreolus_capreolus",
+      "x": 50,
+      "y": 51,
+      "alive": true,
+      "energy_kcal": 99514.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 123,
+      "species": "Capreolus_capreolus",
+      "x": 69,
+      "y": 17,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 124,
+      "species": "Capreolus_capreolus",
+      "x": 16,
+      "y": 66,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 125,
+      "species": "Capreolus_capreolus",
+      "x": 55,
+      "y": 74,
+      "alive": true,
+      "energy_kcal": 99045.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 126,
+      "species": "Capreolus_capreolus",
+      "x": 43,
+      "y": 6,
+      "alive": true,
+      "energy_kcal": 99321.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 127,
+      "species": "Sus_scrofa",
+      "x": 70,
+      "y": 32,
+      "alive": true,
+      "energy_kcal": 498710.7,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 128,
+      "species": "Sus_scrofa",
+      "x": 96,
+      "y": 67,
+      "alive": true,
+      "energy_kcal": 498236.7,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 129,
+      "species": "Sus_scrofa",
+      "x": 88,
+      "y": 39,
+      "alive": true,
+      "energy_kcal": 496302.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 130,
+      "species": "Sus_scrofa",
+      "x": 28,
+      "y": 3,
+      "alive": true,
+      "energy_kcal": 497222.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 131,
+      "species": "Sus_scrofa",
+      "x": 30,
+      "y": 72,
+      "alive": true,
+      "energy_kcal": 498268.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 132,
+      "species": "Sus_scrofa",
+      "x": 11,
+      "y": 29,
+      "alive": true,
+      "energy_kcal": 497123.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 133,
+      "species": "Sus_scrofa",
+      "x": 15,
+      "y": 90,
+      "alive": true,
+      "energy_kcal": 497384.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 134,
+      "species": "Sus_scrofa",
+      "x": 10,
+      "y": 44,
+      "alive": true,
+      "energy_kcal": 497105.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 135,
+      "species": "Sus_scrofa",
+      "x": 43,
+      "y": 44,
+      "alive": true,
+      "energy_kcal": 498338.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 136,
+      "species": "Sus_scrofa",
+      "x": 42,
+      "y": 37,
+      "alive": true,
+      "energy_kcal": 496981.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 137,
+      "species": "Sus_scrofa",
+      "x": 18,
+      "y": 57,
+      "alive": true,
+      "energy_kcal": 497038.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 138,
+      "species": "Sus_scrofa",
+      "x": 30,
+      "y": 97,
+      "alive": true,
+      "energy_kcal": 497239.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 139,
+      "species": "Sus_scrofa",
+      "x": 79,
+      "y": 63,
+      "alive": true,
+      "energy_kcal": 497175.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 140,
+      "species": "Sus_scrofa",
+      "x": 34,
+      "y": 74,
+      "alive": true,
+      "energy_kcal": 497251.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 141,
+      "species": "Sus_scrofa",
+      "x": 5,
+      "y": 10,
+      "alive": true,
+      "energy_kcal": 497678.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 142,
+      "species": "Sus_scrofa",
+      "x": 7,
+      "y": 81,
+      "alive": true,
+      "energy_kcal": 497701.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 143,
+      "species": "Sus_scrofa",
+      "x": 75,
+      "y": 63,
+      "alive": true,
+      "energy_kcal": 497108.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 144,
+      "species": "Sus_scrofa",
+      "x": 88,
+      "y": 60,
+      "alive": true,
+      "energy_kcal": 496956.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 145,
+      "species": "Sus_scrofa",
+      "x": 93,
+      "y": 35,
+      "alive": true,
+      "energy_kcal": 497209.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 146,
+      "species": "Sus_scrofa",
+      "x": 15,
+      "y": 37,
+      "alive": true,
+      "energy_kcal": 498096.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 147,
+      "species": "Sus_scrofa",
+      "x": 51,
+      "y": 42,
+      "alive": true,
+      "energy_kcal": 498449.9,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 148,
+      "species": "Marmota_marmota",
+      "x": 29,
+      "y": 88,
+      "alive": true,
+      "energy_kcal": 22247.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 149,
+      "species": "Marmota_marmota",
+      "x": 29,
+      "y": 65,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 150,
+      "species": "Marmota_marmota",
+      "x": 82,
+      "y": 60,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 151,
+      "species": "Marmota_marmota",
+      "x": 84,
+      "y": 88,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 152,
+      "species": "Marmota_marmota",
+      "x": 49,
+      "y": 61,
+      "alive": true,
+      "energy_kcal": 22247.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 153,
+      "species": "Marmota_marmota",
+      "x": 70,
+      "y": 75,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 154,
+      "species": "Marmota_marmota",
+      "x": 90,
+      "y": 70,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 155,
+      "species": "Marmota_marmota",
+      "x": 47,
+      "y": 84,
+      "alive": true,
+      "energy_kcal": 22247.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 156,
+      "species": "Marmota_marmota",
+      "x": 15,
+      "y": 35,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 157,
+      "species": "Marmota_marmota",
+      "x": 13,
+      "y": 44,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 158,
+      "species": "Marmota_marmota",
+      "x": 32,
+      "y": 94,
+      "alive": true,
+      "energy_kcal": 22247.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 159,
+      "species": "Marmota_marmota",
+      "x": 12,
+      "y": 54,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 160,
+      "species": "Marmota_marmota",
+      "x": 7,
+      "y": 63,
+      "alive": true,
+      "energy_kcal": 22292.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 161,
+      "species": "Marmota_marmota",
+      "x": 9,
+      "y": 60,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 162,
+      "species": "Marmota_marmota",
+      "x": 77,
+      "y": 61,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 163,
+      "species": "Marmota_marmota",
+      "x": 17,
+      "y": 74,
+      "alive": true,
+      "energy_kcal": 22247.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 164,
+      "species": "Marmota_marmota",
+      "x": 87,
+      "y": 1,
+      "alive": true,
+      "energy_kcal": 22292.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 165,
+      "species": "Marmota_marmota",
+      "x": 57,
+      "y": 32,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 166,
+      "species": "Marmota_marmota",
+      "x": 17,
+      "y": 14,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 167,
+      "species": "Marmota_marmota",
+      "x": 83,
+      "y": 23,
+      "alive": true,
+      "energy_kcal": 22247.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 168,
+      "species": "Marmota_marmota",
+      "x": 87,
+      "y": 77,
+      "alive": true,
+      "energy_kcal": 22247.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 169,
+      "species": "Marmota_marmota",
+      "x": 19,
+      "y": 23,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 170,
+      "species": "Marmota_marmota",
+      "x": 79,
+      "y": 16,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 171,
+      "species": "Marmota_marmota",
+      "x": 78,
+      "y": 66,
+      "alive": true,
+      "energy_kcal": 22229.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 172,
+      "species": "Marmota_marmota",
+      "x": 2,
+      "y": 7,
+      "alive": true,
+      "energy_kcal": 22292.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 173,
+      "species": "Oryctolagus_cuniculus",
+      "x": 28,
+      "y": 96,
+      "alive": true,
+      "energy_kcal": 5908.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 174,
+      "species": "Oryctolagus_cuniculus",
+      "x": 67,
+      "y": 69,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 175,
+      "species": "Oryctolagus_cuniculus",
+      "x": 43,
+      "y": 68,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 176,
+      "species": "Oryctolagus_cuniculus",
+      "x": 69,
+      "y": 52,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 177,
+      "species": "Oryctolagus_cuniculus",
+      "x": 93,
+      "y": 82,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 178,
+      "species": "Oryctolagus_cuniculus",
+      "x": 59,
+      "y": 65,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 179,
+      "species": "Oryctolagus_cuniculus",
+      "x": 50,
+      "y": 75,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 180,
+      "species": "Oryctolagus_cuniculus",
+      "x": 4,
+      "y": 38,
+      "alive": true,
+      "energy_kcal": 5911.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 181,
+      "species": "Oryctolagus_cuniculus",
+      "x": 44,
+      "y": 10,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 182,
+      "species": "Oryctolagus_cuniculus",
+      "x": 59,
+      "y": 91,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 183,
+      "species": "Oryctolagus_cuniculus",
+      "x": 84,
+      "y": 53,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 184,
+      "species": "Oryctolagus_cuniculus",
+      "x": 74,
+      "y": 7,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 185,
+      "species": "Oryctolagus_cuniculus",
+      "x": 80,
+      "y": 47,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 186,
+      "species": "Oryctolagus_cuniculus",
+      "x": 29,
+      "y": 20,
+      "alive": true,
+      "energy_kcal": 5908.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 187,
+      "species": "Oryctolagus_cuniculus",
+      "x": 47,
+      "y": 54,
+      "alive": true,
+      "energy_kcal": 5908.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 188,
+      "species": "Oryctolagus_cuniculus",
+      "x": 6,
+      "y": 83,
+      "alive": true,
+      "energy_kcal": 5911.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 189,
+      "species": "Oryctolagus_cuniculus",
+      "x": 38,
+      "y": 71,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 190,
+      "species": "Oryctolagus_cuniculus",
+      "x": 41,
+      "y": 84,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 191,
+      "species": "Oryctolagus_cuniculus",
+      "x": 5,
+      "y": 8,
+      "alive": true,
+      "energy_kcal": 5911.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 192,
+      "species": "Oryctolagus_cuniculus",
+      "x": 64,
+      "y": 70,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 193,
+      "species": "Oryctolagus_cuniculus",
+      "x": 31,
+      "y": 20,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 194,
+      "species": "Oryctolagus_cuniculus",
+      "x": 57,
+      "y": 8,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 195,
+      "species": "Oryctolagus_cuniculus",
+      "x": 48,
+      "y": 73,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 196,
+      "species": "Oryctolagus_cuniculus",
+      "x": 70,
+      "y": 16,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 197,
+      "species": "Oryctolagus_cuniculus",
+      "x": 71,
+      "y": 2,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 198,
+      "species": "Oryctolagus_cuniculus",
+      "x": 86,
+      "y": 48,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 199,
+      "species": "Oryctolagus_cuniculus",
+      "x": 16,
+      "y": 3,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 200,
+      "species": "Oryctolagus_cuniculus",
+      "x": 3,
+      "y": 75,
+      "alive": true,
+      "energy_kcal": 5911.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 201,
+      "species": "Oryctolagus_cuniculus",
+      "x": 50,
+      "y": 13,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 202,
+      "species": "Oryctolagus_cuniculus",
+      "x": 36,
+      "y": 73,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 203,
+      "species": "Oryctolagus_cuniculus",
+      "x": 38,
+      "y": 68,
+      "alive": true,
+      "energy_kcal": 5908.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 204,
+      "species": "Oryctolagus_cuniculus",
+      "x": 35,
+      "y": 2,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 205,
+      "species": "Oryctolagus_cuniculus",
+      "x": 40,
+      "y": 66,
+      "alive": true,
+      "energy_kcal": 5911.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 206,
+      "species": "Oryctolagus_cuniculus",
+      "x": 78,
+      "y": 92,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 207,
+      "species": "Oryctolagus_cuniculus",
+      "x": 58,
+      "y": 27,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 208,
+      "species": "Oryctolagus_cuniculus",
+      "x": 79,
+      "y": 69,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 209,
+      "species": "Oryctolagus_cuniculus",
+      "x": 74,
+      "y": 14,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 210,
+      "species": "Oryctolagus_cuniculus",
+      "x": 63,
+      "y": 33,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 211,
+      "species": "Oryctolagus_cuniculus",
+      "x": 44,
+      "y": 46,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 212,
+      "species": "Oryctolagus_cuniculus",
+      "x": 49,
+      "y": 87,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 213,
+      "species": "Oryctolagus_cuniculus",
+      "x": 19,
+      "y": 84,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 214,
+      "species": "Oryctolagus_cuniculus",
+      "x": 46,
+      "y": 90,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 215,
+      "species": "Oryctolagus_cuniculus",
+      "x": 18,
+      "y": 37,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 216,
+      "species": "Oryctolagus_cuniculus",
+      "x": 29,
+      "y": 96,
+      "alive": true,
+      "energy_kcal": 5908.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 217,
+      "species": "Oryctolagus_cuniculus",
+      "x": 88,
+      "y": 41,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 218,
+      "species": "Oryctolagus_cuniculus",
+      "x": 69,
+      "y": 18,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 219,
+      "species": "Oryctolagus_cuniculus",
+      "x": 64,
+      "y": 93,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 220,
+      "species": "Oryctolagus_cuniculus",
+      "x": 43,
+      "y": 21,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 221,
+      "species": "Oryctolagus_cuniculus",
+      "x": 8,
+      "y": 83,
+      "alive": true,
+      "energy_kcal": 5911.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 222,
+      "species": "Oryctolagus_cuniculus",
+      "x": 78,
+      "y": 47,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 223,
+      "species": "Oryctolagus_cuniculus",
+      "x": 71,
+      "y": 1,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 224,
+      "species": "Oryctolagus_cuniculus",
+      "x": 21,
+      "y": 6,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 225,
+      "species": "Oryctolagus_cuniculus",
+      "x": 12,
+      "y": 45,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 226,
+      "species": "Oryctolagus_cuniculus",
+      "x": 97,
+      "y": 69,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 227,
+      "species": "Oryctolagus_cuniculus",
+      "x": 74,
+      "y": 24,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 228,
+      "species": "Oryctolagus_cuniculus",
+      "x": 85,
+      "y": 83,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 229,
+      "species": "Oryctolagus_cuniculus",
+      "x": 5,
+      "y": 17,
+      "alive": true,
+      "energy_kcal": 5911.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 230,
+      "species": "Oryctolagus_cuniculus",
+      "x": 41,
+      "y": 23,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 231,
+      "species": "Oryctolagus_cuniculus",
+      "x": 26,
+      "y": 17,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 232,
+      "species": "Oryctolagus_cuniculus",
+      "x": 20,
+      "y": 33,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 233,
+      "species": "Oryctolagus_cuniculus",
+      "x": 3,
+      "y": 40,
+      "alive": true,
+      "energy_kcal": 5911.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 234,
+      "species": "Oryctolagus_cuniculus",
+      "x": 46,
+      "y": 15,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 235,
+      "species": "Oryctolagus_cuniculus",
+      "x": 25,
+      "y": 18,
+      "alive": true,
+      "energy_kcal": 5908.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 236,
+      "species": "Oryctolagus_cuniculus",
+      "x": 57,
+      "y": 20,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 237,
+      "species": "Oryctolagus_cuniculus",
+      "x": 95,
+      "y": 60,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 238,
+      "species": "Oryctolagus_cuniculus",
+      "x": 52,
+      "y": 15,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 239,
+      "species": "Oryctolagus_cuniculus",
+      "x": 80,
+      "y": 45,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 240,
+      "species": "Oryctolagus_cuniculus",
+      "x": 11,
+      "y": 88,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 241,
+      "species": "Oryctolagus_cuniculus",
+      "x": 90,
+      "y": 53,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 242,
+      "species": "Oryctolagus_cuniculus",
+      "x": 12,
+      "y": 58,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 243,
+      "species": "Oryctolagus_cuniculus",
+      "x": 44,
+      "y": 51,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 244,
+      "species": "Oryctolagus_cuniculus",
+      "x": 45,
+      "y": 71,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 245,
+      "species": "Oryctolagus_cuniculus",
+      "x": 45,
+      "y": 55,
+      "alive": true,
+      "energy_kcal": 5895.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 246,
+      "species": "Oryctolagus_cuniculus",
+      "x": 94,
+      "y": 60,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 247,
+      "species": "Oryctolagus_cuniculus",
+      "x": 92,
+      "y": 36,
+      "alive": true,
+      "energy_kcal": 5888.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 248,
+      "species": "Sciurus_vulgaris",
+      "x": 5,
+      "y": 59,
+      "alive": true,
+      "energy_kcal": 1465.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 249,
+      "species": "Sciurus_vulgaris",
+      "x": 26,
+      "y": 20,
+      "alive": true,
+      "energy_kcal": 1459.9,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 250,
+      "species": "Sciurus_vulgaris",
+      "x": 83,
+      "y": 43,
+      "alive": true,
+      "energy_kcal": 1457.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 251,
+      "species": "Sciurus_vulgaris",
+      "x": 51,
+      "y": 81,
+      "alive": true,
+      "energy_kcal": 1459.9,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 252,
+      "species": "Sciurus_vulgaris",
+      "x": 40,
+      "y": 4,
+      "alive": true,
+      "energy_kcal": 1457.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 253,
+      "species": "Sciurus_vulgaris",
+      "x": 0,
+      "y": 80,
+      "alive": true,
+      "energy_kcal": 1465.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 254,
+      "species": "Sciurus_vulgaris",
+      "x": 34,
+      "y": 97,
+      "alive": true,
+      "energy_kcal": 1457.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 255,
+      "species": "Sciurus_vulgaris",
+      "x": 95,
+      "y": 76,
+      "alive": true,
+      "energy_kcal": 1457.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 256,
+      "species": "Sciurus_vulgaris",
+      "x": 81,
+      "y": 29,
+      "alive": true,
+      "energy_kcal": 1459.9,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 257,
+      "species": "Sciurus_vulgaris",
+      "x": 83,
+      "y": 52,
+      "alive": true,
+      "energy_kcal": 1457.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 258,
+      "species": "Sciurus_vulgaris",
+      "x": 64,
+      "y": 71,
+      "alive": true,
+      "energy_kcal": 1457.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 259,
+      "species": "Sciurus_vulgaris",
+      "x": 50,
+      "y": 62,
+      "alive": true,
+      "energy_kcal": 1459.9,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 260,
+      "species": "Sciurus_vulgaris",
+      "x": 12,
+      "y": 58,
+      "alive": true,
+      "energy_kcal": 1457.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 261,
+      "species": "Sciurus_vulgaris",
+      "x": 97,
+      "y": 70,
+      "alive": true,
+      "energy_kcal": 1457.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 262,
+      "species": "Sciurus_vulgaris",
+      "x": 8,
+      "y": 46,
+      "alive": true,
+      "energy_kcal": 1465.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 263,
+      "species": "Vulpes_vulpes",
+      "x": 77,
+      "y": 97,
+      "alive": true,
+      "energy_kcal": 29674.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 264,
+      "species": "Vulpes_vulpes",
+      "x": 75,
+      "y": 29,
+      "alive": true,
+      "energy_kcal": 29696.7,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 265,
+      "species": "Vulpes_vulpes",
+      "x": 68,
+      "y": 74,
+      "alive": true,
+      "energy_kcal": 29674.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 266,
+      "species": "Vulpes_vulpes",
+      "x": 66,
+      "y": 34,
+      "alive": true,
+      "energy_kcal": 29696.7,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 267,
+      "species": "Vulpes_vulpes",
+      "x": 17,
+      "y": 2,
+      "alive": true,
+      "energy_kcal": 29741.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 268,
+      "species": "Vulpes_vulpes",
+      "x": 24,
+      "y": 20,
+      "alive": true,
+      "energy_kcal": 29674.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 269,
+      "species": "Vulpes_vulpes",
+      "x": 42,
+      "y": 21,
+      "alive": true,
+      "energy_kcal": 29674.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 270,
+      "species": "Meles_meles",
+      "x": 80,
+      "y": 42,
+      "alive": true,
+      "energy_kcal": 54524.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 271,
+      "species": "Meles_meles",
+      "x": 47,
+      "y": 39,
+      "alive": true,
+      "energy_kcal": 54559.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 272,
+      "species": "Meles_meles",
+      "x": 31,
+      "y": 35,
+      "alive": true,
+      "energy_kcal": 54524.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 273,
+      "species": "Meles_meles",
+      "x": 75,
+      "y": 47,
+      "alive": true,
+      "energy_kcal": 54559.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 274,
+      "species": "Meles_meles",
+      "x": 37,
+      "y": 3,
+      "alive": true,
+      "energy_kcal": 54559.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 275,
+      "species": "Martes_martes",
+      "x": 5,
+      "y": 80,
+      "alive": true,
+      "energy_kcal": 7424.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 276,
+      "species": "Martes_martes",
+      "x": 55,
+      "y": 45,
+      "alive": true,
+      "energy_kcal": 7349.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 277,
+      "species": "Martes_martes",
+      "x": 17,
+      "y": 58,
+      "alive": true,
+      "energy_kcal": 7415.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 278,
+      "species": "Martes_martes",
+      "x": 67,
+      "y": 29,
+      "alive": true,
+      "energy_kcal": 7429.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 279,
+      "species": "Martes_martes",
+      "x": 48,
+      "y": 56,
+      "alive": true,
+      "energy_kcal": 7367.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 280,
+      "species": "Martes_martes",
+      "x": 49,
+      "y": 25,
+      "alive": true,
+      "energy_kcal": 7407.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 281,
+      "species": "Felis_silvestris",
+      "x": 61,
+      "y": 42,
+      "alive": true,
+      "energy_kcal": 19810.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 282,
+      "species": "Mustela_erminea",
+      "x": 19,
+      "y": 7,
+      "alive": true,
+      "energy_kcal": 802.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 283,
+      "species": "Mustela_erminea",
+      "x": 63,
+      "y": 31,
+      "alive": true,
+      "energy_kcal": 787.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 284,
+      "species": "Mustela_erminea",
+      "x": 74,
+      "y": 73,
+      "alive": true,
+      "energy_kcal": 844.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 285,
+      "species": "Mustela_erminea",
+      "x": 2,
+      "y": 26,
+      "alive": true,
+      "energy_kcal": 835.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 286,
+      "species": "Mustela_erminea",
+      "x": 23,
+      "y": 16,
+      "alive": true,
+      "energy_kcal": 833.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 287,
+      "species": "Mustela_erminea",
+      "x": 50,
+      "y": 79,
+      "alive": true,
+      "energy_kcal": 782.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 288,
+      "species": "Mustela_erminea",
+      "x": 9,
+      "y": 62,
+      "alive": true,
+      "energy_kcal": 783.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 289,
+      "species": "Mustela_erminea",
+      "x": 84,
+      "y": 91,
+      "alive": true,
+      "energy_kcal": 822.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 290,
+      "species": "Mustela_erminea",
+      "x": 96,
+      "y": 98,
+      "alive": true,
+      "energy_kcal": 843.7,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 291,
+      "species": "Mustela_erminea",
+      "x": 54,
+      "y": 48,
+      "alive": true,
+      "energy_kcal": 791.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 292,
+      "species": "Mustela_erminea",
+      "x": 64,
+      "y": 40,
+      "alive": true,
+      "energy_kcal": 732.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 293,
+      "species": "Mustela_erminea",
+      "x": 79,
+      "y": 4,
+      "alive": true,
+      "energy_kcal": 818.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 294,
+      "species": "Mustela_nivalis",
+      "x": 96,
+      "y": 32,
+      "alive": true,
+      "energy_kcal": 440.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 295,
+      "species": "Mustela_nivalis",
+      "x": 75,
+      "y": 0,
+      "alive": true,
+      "energy_kcal": 452.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 296,
+      "species": "Mustela_nivalis",
+      "x": 51,
+      "y": 92,
+      "alive": true,
+      "energy_kcal": 440.9,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 297,
+      "species": "Mustela_nivalis",
+      "x": 79,
+      "y": 74,
+      "alive": true,
+      "energy_kcal": 490.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 298,
+      "species": "Mustela_nivalis",
+      "x": 97,
+      "y": 80,
+      "alive": true,
+      "energy_kcal": 480.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 299,
+      "species": "Mustela_nivalis",
+      "x": 75,
+      "y": 16,
+      "alive": true,
+      "energy_kcal": 448.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 300,
+      "species": "Mustela_nivalis",
+      "x": 19,
+      "y": 37,
+      "alive": true,
+      "energy_kcal": 451.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 301,
+      "species": "Mustela_nivalis",
+      "x": 33,
+      "y": 13,
+      "alive": true,
+      "energy_kcal": 495.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 302,
+      "species": "Mustela_nivalis",
+      "x": 36,
+      "y": 9,
+      "alive": true,
+      "energy_kcal": 512.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 303,
+      "species": "Mustela_nivalis",
+      "x": 22,
+      "y": 11,
+      "alive": true,
+      "energy_kcal": 505.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 304,
+      "species": "Mustela_nivalis",
+      "x": 36,
+      "y": 74,
+      "alive": true,
+      "energy_kcal": 457.4,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 305,
+      "species": "Mustela_nivalis",
+      "x": 13,
+      "y": 86,
+      "alive": true,
+      "energy_kcal": 450.8,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 306,
+      "species": "Mustela_nivalis",
+      "x": 66,
+      "y": 52,
+      "alive": true,
+      "energy_kcal": 437.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 307,
+      "species": "Mustela_nivalis",
+      "x": 34,
+      "y": 51,
+      "alive": true,
+      "energy_kcal": 457.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 308,
+      "species": "Mustela_nivalis",
+      "x": 88,
+      "y": 54,
+      "alive": true,
+      "energy_kcal": 463.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 309,
+      "species": "Mustela_nivalis",
+      "x": 52,
+      "y": 43,
+      "alive": true,
+      "energy_kcal": 505.1,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 310,
+      "species": "Mustela_nivalis",
+      "x": 98,
+      "y": 96,
+      "alive": true,
+      "energy_kcal": 472.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 311,
+      "species": "Mustela_nivalis",
+      "x": 88,
+      "y": 95,
+      "alive": true,
+      "energy_kcal": 524.6,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 312,
+      "species": "Tetrao_urogallus",
+      "x": 69,
+      "y": 76,
+      "alive": true,
+      "energy_kcal": 19749.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 313,
+      "species": "Lagopus_muta",
+      "x": 91,
+      "y": 61,
+      "alive": true,
+      "energy_kcal": 2439.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 314,
+      "species": "Lagopus_muta",
+      "x": 83,
+      "y": 83,
+      "alive": true,
+      "energy_kcal": 2439.2,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 315,
+      "species": "Corvus_corax",
+      "x": 5,
+      "y": 11,
+      "alive": true,
+      "energy_kcal": 4921.9,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 316,
+      "species": "Corvus_corax",
+      "x": 97,
+      "y": 22,
+      "alive": true,
+      "energy_kcal": 4901.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 317,
+      "species": "Corvus_corax",
+      "x": 83,
+      "y": 92,
+      "alive": true,
+      "energy_kcal": 4907.3,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 318,
+      "species": "Corvus_corax",
+      "x": 55,
+      "y": 82,
+      "alive": true,
+      "energy_kcal": 4901.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 319,
+      "species": "Corvus_corax",
+      "x": 54,
+      "y": 98,
+      "alive": true,
+      "energy_kcal": 4901.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 320,
+      "species": "Corvus_corax",
+      "x": 3,
+      "y": 68,
+      "alive": true,
+      "energy_kcal": 4921.9,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 321,
+      "species": "Corvus_corax",
+      "x": 58,
+      "y": 50,
+      "alive": true,
+      "energy_kcal": 4901.5,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 322,
+      "species": "Gypaetus_barbatus",
+      "x": 83,
+      "y": 79,
+      "alive": true,
+      "energy_kcal": 27192.0,
+      "age_days": 1.0,
+      "pregnant": false
+    },
+    {
+      "id": 323,
+      "species": "Aquila_chrysaetos",
+      "x": 59,
+      "y": 4,
+      "alive": true,
+      "energy_kcal": 19736.4,
+      "age_days": 1.0,
+      "pregnant": false
+    }
+  ],
+  "pools": {
+    "plants": 23604.2,
+    "inverts": 1480.3,
+    "fish": 0.0,
+    "herps": 0.0,
+    "passerines": 0.0,
+    "micromammals": 0.0,
+    "bats": 0.0
+  }
+}

@@ -1,0 +1,3 @@
+/target/
+output_*/snap_*.json
+output_*/log_*.json
